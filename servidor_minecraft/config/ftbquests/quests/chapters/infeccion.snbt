@@ -1,0 +1,651 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infeccion"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "endermanoverhaul:warped_pearl"
+	id: "36A1D337917C1BCA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["511D8A478E4B8483"]
+			hide_dependency_lines: true
+			id: "05AA466AD812E6B4"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4ACCECD004AE412C"
+				type: "dimension"
+			}]
+			title: "Ve al Nether"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"61B544508801672A"
+				"012490418D30395F"
+			]
+			id: "6761D607FADAC1D9"
+			tasks: [{
+				advancement: "mutantmonsters:no_bones_about_it"
+				criterion: ""
+				id: "01CA04862EA98A48"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5EB8A2947DFA3CCF"]
+			id: "3BE1E604C8B61E3D"
+			tasks: [{
+				advancement: "mutantmonsters:you_da_bomby"
+				criterion: ""
+				id: "4F75E6CC4E02BCAD"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CF3BAD648F449C9"]
+			id: "28C270395F7F6EFF"
+			tasks: [{
+				advancement: "mutantmonsters:hulk_smash"
+				criterion: ""
+				id: "41C99C5B4865045D"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6596D294C51A4B09"]
+			id: "109DADBE0CAEF1C1"
+			tasks: [{
+				advancement: "mutantmonsters:spider_pig_spider_pig"
+				criterion: ""
+				id: "2681D1B3F7EA5C2C"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "61B544508801672A"
+			tasks: [{
+				advancement: "minecraft:adventure/ol_betsy"
+				criterion: ""
+				id: "3CAE562A0B39A90B"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"61B544508801672A"
+				"05AA466AD812E6B4"
+			]
+			id: "7DE21382E2FD8DCA"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_ghast"
+				criterion: ""
+				id: "1D3397B28585DE0B"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61B544508801672A"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B6023527131A172"
+			tasks: [{
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+				id: "6A0AD811D509D732"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B6023527131A172"]
+			icon: "minecraft:cooked_chicken"
+			id: "50B454D40D6D05AC"
+			rewards: [{
+				id: "44EE5215EFCA3FF3"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/two_birds_one_arrow"
+				criterion: ""
+				id: "593F56FF8AF1C27D"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"593F56FF8AF1C27D"
+				"50B454D40D6D05AC"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:dreadbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4212280E3402FD71"
+			rewards: [{
+				id: "50D3762064595F8E"
+				type: "xp"
+				xp: 551
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/arbalistic"
+				criterion: ""
+				id: "53E05FB8EBAAC847"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E85A24B0837216"]
+			icon: "minecraft:piglin_head"
+			id: "107C1D77DDA77545"
+			rewards: [{
+				id: "2FF43A36F8B53DD7"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "13A29FBDB1EC158D"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "31C35768AB4494E7"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "795E27D309565BCB"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "19E85A24B0837216"
+			rewards: [{
+				id: "1ECB3F218BCE09C3"
+				item: {
+					Count: 1
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "6AB4E333AE76C4DC"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "04D904AB7E5D8432"
+			rewards: [{
+				count: 5
+				id: "6E51562638CFF535"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "2F42E90F195EF639"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04D904AB7E5D8432"]
+			id: "24213035F24A0221"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "0E9901364738FC76"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24213035F24A0221"]
+			id: "4D272D57504E31AE"
+			rewards: [{
+				id: "557A9C8A96ADC9B3"
+				type: "xp"
+				xp: 318
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "6C7FA7CBEAAA65CF"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D272D57504E31AE"]
+			id: "37B531A2CAA72F25"
+			rewards: [{
+				id: "12B80361B54E7840"
+				type: "xp"
+				xp: 318
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/uneasy_alliance"
+				criterion: ""
+				id: "67F4B4310B3EB622"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "2E90FFC5473A374D"
+			rewards: [{
+				id: "14D1354AF9ED4A18"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/root"
+				criterion: ""
+				id: "3CA389F3CB99BE05"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E90FFC5473A374D"]
+			id: "10740C0ECE4D561A"
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "39B1E637C6A9D257"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E90FFC5473A374D"]
+			id: "731229E79E603B4D"
+			rewards: [
+				{
+					id: "0336F19C08B59263"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7AD0A1D5598AD4E1"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "04868740B008F32C"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "3943CD274FD6F26D"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"731229E79E603B4D"
+				"10740C0ECE4D561A"
+			]
+			id: "2D9F387E7C7C1F09"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+				criterion: ""
+				id: "3A62C1A9D58AF1A4"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["731229E79E603B4D"]
+			id: "2DEE4E1C600D7216"
+			rewards: [{
+				id: "687201CC575502CD"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: ""
+				id: "2AA0E59B656B2B9B"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "64A28B541224A9A1"
+			tasks: [{
+				advancement: "luminousworld:kill_king_crab"
+				criterion: ""
+				id: "48C7FD9B06D5182C"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "23A18B849CD14326"
+			tasks: [{
+				advancement: "luminousworld:kill_mummy"
+				criterion: ""
+				id: "20F93EFFEA4112B2"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "6A53CAE7F94D0F53"
+			tasks: [{
+				advancement: "luminousworld:kill_bone_stalker"
+				criterion: ""
+				id: "420C6497AB89D163"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "6CBA8235420FDD18"
+			tasks: [{
+				advancement: "luminousworld:kill_gilded_tree_ent"
+				criterion: ""
+				id: "1893443F240094A6"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "5170B24E544A62DF"
+			tasks: [{
+				advancement: "luminousworld:kill_witch_doctor"
+				criterion: ""
+				id: "0FA4D8CD22A26F1A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "14F817BF4B3E30D2"
+			tasks: [{
+				advancement: "luminousworld:kill_viper"
+				criterion: ""
+				id: "11DA6D9E9B8658BC"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "436DEF12D2C51704"
+			tasks: [{
+				advancement: "luminousworld:kill_gator"
+				criterion: ""
+				id: "6902B2BBB0D22430"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "1045DAF90568FC98"
+			tasks: [{
+				advancement: "luminousworld:kill_pheonix"
+				criterion: ""
+				id: "00684E85D2361C66"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			icon: "minecraft:zombie_head"
+			id: "2CF3BAD648F449C9"
+			rewards: [{
+				id: "3F361F064CF6B535"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "1C7A653A1F3C0D8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			icon: "mutantmonsters:spider_pig_spawn_egg"
+			id: "6596D294C51A4B09"
+			rewards: [{
+				id: "626654705B4CA0F9"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				id: "5AA6C419E7CC38E9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:creeper_shard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EB8A2947DFA3CCF"
+			rewards: [{
+				id: "03ECE9C8CC2C7591"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "72490A1E7FB1A13D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			icon: "mutantmonsters:mutant_skeleton_rib_cage"
+			id: "012490418D30395F"
+			rewards: [{
+				id: "345A6E49CDEF5749"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "0B95EA9C31AB37CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"109DADBE0CAEF1C1"
+				"28C270395F7F6EFF"
+				"3BE1E604C8B61E3D"
+				"6761D607FADAC1D9"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D14CD647AE7651A"
+			rewards: [{
+				id: "11FE65C117DBDFC3"
+				type: "xp"
+				xp: 551
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "2960495957EF4448"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			icon: "ftbquests:book"
+			id: "29CC5DAA972DC892"
+			rewards: [{
+				id: "504826F0BD6090CA"
+				type: "xp"
+				xp: 318
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2EE3BE96B1694124"
+				type: "dimension"
+			}]
+			title: "Mision diara"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05AA466AD812E6B4"]
+			id: "7C8A8AE2FCD97CB1"
+			rewards: [{
+				id: "6B99AA3807F035D7"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				id: "63706E7889CCA6ED"
+				item: "dedsafio3:emptycapsule"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			icon: "ftbquests:barrier"
+			id: "511D8A478E4B8483"
+			tasks: [{
+				id: "460F78B307A2F458"
+				type: "custom"
+			}]
+			title: "dia4"
+			x: 0.0d
+			y: -35.0d
+		}
+	]
+	title: "Infeccion"
+}

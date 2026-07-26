@@ -1,0 +1,241 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "subsuelo"
+	group: "2D21138A49AAA735"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:crying_obsidian"
+	id: "0775A0F2772976BC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:crying_obsidian"
+			id: "02AD20067B9EA052"
+			subtitle: "Baja al subsuelo por primera vez"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3D62BEFDB4DD01C1"
+				ignore_dimension: false
+				position: [I;
+					99996
+					-26
+					-99714
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Subsuelo"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02AD20067B9EA052"]
+			icon: "minecraft:chain"
+			id: "7B6342B1601B1442"
+			subtitle: "Supera el 3er parkour de las instalaciones"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0D888B7C0C93C8A1"
+				ignore_dimension: false
+				position: [I;
+					99991
+					-54
+					-99744
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Bueno en el Parkour"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["02AD20067B9EA052"]
+			icon: "netherexp:soul_burning_wither_skull_block"
+			id: "43275C0E6734444D"
+			subtitle: "¿De que me servira una alma si ya soy una?"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1019D04D26A2E230"
+				ignore_dimension: false
+				position: [I;
+					99972
+					-26
+					-99737
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Almacen de almas"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B6342B1601B1442"]
+			icon: "mofus_better_end_:weird_mechanical_core"
+			id: "318BA10D6A6D6C57"
+			subtitle: "Entra en el taller por primera vez"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "78488D230FBCA422"
+				ignore_dimension: false
+				position: [I;
+					99935
+					-53
+					-99735
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Parece un museo"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["318BA10D6A6D6C57"]
+			icon: "mofus_better_end_:end_archive_book_page"
+			id: "7378ED834B7FA385"
+			subtitle: "Entra en el piso -4 por primera vez"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4551C04BC14FC70C"
+				ignore_dimension: false
+				position: [I;
+					99889
+					-53
+					-99730
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "El calabozo infinito"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7378ED834B7FA385"]
+			icon: "mofus_better_end_:old_pages"
+			id: "791AC9DEEF71A8E6"
+			subtitle: "Logra escapar del piso -4"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "70304F85EA64F678"
+				ignore_dimension: false
+				position: [I;
+					99606
+					-39
+					-99596
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Fin de la tortura"
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7378ED834B7FA385"]
+			id: "7442AFE98A06962E"
+			subtitle: "Encuentra la fabrica de pildoras"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "dedsafio3:blue_capsule"
+				id: "4E24E3BB26826ABD"
+				ignore_dimension: false
+				position: [I;
+					99861
+					-45
+					-99718
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "El origen de la salvacion"
+				type: "location"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7378ED834B7FA385"]
+			id: "11019DD376CE056B"
+			subtitle: "Encuentra el restaurante favorito de Méon"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "farmersdelight:pasta_with_meatballs"
+				id: "6B25B22DDAC3C982"
+				ignore_dimension: false
+				position: [I;
+					99861
+					-45
+					-99739
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Comedor fantasma"
+				type: "location"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["791AC9DEEF71A8E6"]
+			id: "39B4AFCAF27F03AA"
+			subtitle: "Escapa del Piso -4 ´´sin hacer ruido´´"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "securitycraft:alarm"
+				id: "04789B131190D459"
+				ignore_dimension: false
+				position: [I;
+					99606
+					-39
+					-99589
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Sin hacer ruido"
+				type: "location"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+	]
+	title: "Subsuelo"
+}

@@ -1,0 +1,447 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fin_del_mundo"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "endermanoverhaul:crimson_pearl"
+	id: "21D89B7F6A846E8A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B6A4C0DEB5339AA"]
+			id: "117AE4DE971CEE56"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "2128681C6817867F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["117AE4DE971CEE56"]
+			icon: "ftbquests:book"
+			id: "6CA0FB427FD02966"
+			rewards: [{
+				id: "1EB4CFD1D3662D46"
+				type: "xp_levels"
+				xp_levels: 2923
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D1EF696C9A4A96B"
+				item: "deep_dark_regrowth:combusted_soul"
+				type: "item"
+			}]
+			title: "Mision diara"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["117AE4DE971CEE56"]
+			id: "71669F1AA5732E15"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "032D85A87089FAA8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71669F1AA5732E15"]
+			id: "2A20B362F5A81B7A"
+			rewards: [{
+				id: "137A0814DB70032C"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "03D8D4D7CA55F2CD"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2A20B362F5A81B7A"
+				"298021624DB7D069"
+			]
+			id: "3BCACE2A9407FB93"
+			rewards: [{
+				id: "7C8398E361632E9F"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_luxtructosaurus"
+				criterion: ""
+				id: "502759AB72B2EBF3"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["117AE4DE971CEE56"]
+			id: "73D8029EFD9704A7"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_map"
+				criterion: ""
+				id: "2A0FCBABFBCA8590"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73D8029EFD9704A7"]
+			id: "23374AC3B5F2999F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_primordial_caves"
+				criterion: ""
+				id: "147B70DB63DE1754"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23374AC3B5F2999F"]
+			id: "57A742D0BA6B4E8A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_dinosaur"
+				criterion: ""
+				id: "144D712D81A74894"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23374AC3B5F2999F"]
+			id: "23F69D4D58EB8245"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/limestone"
+				criterion: ""
+				id: "46863ACFDE2A1843"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23F69D4D58EB8245"]
+			id: "19329E167946ABD0"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_painting"
+				criterion: ""
+				id: "4E30703CEAD8F899"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19329E167946ABD0"]
+			id: "08EB8A7D92BCE99F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/mystery_cave_painting"
+				criterion: ""
+				id: "7005D79845C56021"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08EB8A7D92BCE99F"]
+			id: "0818B4D8A1911720"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ominous_catalyst"
+				criterion: ""
+				id: "7E47239675F57D09"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0818B4D8A1911720"]
+			id: "298021624DB7D069"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/summon_luxtructosaurus"
+				criterion: ""
+				id: "2DD1FC02E6DAD73D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BCACE2A9407FB93"]
+			id: "50D42A1C52F79647"
+			rewards: [{
+				id: "4811F2CF34284F0D"
+				type: "xp"
+				xp: 318
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/extinction_spear"
+				criterion: ""
+				id: "5267E526095E55C8"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3BCACE2A9407FB93"
+				"465BE1E5986BB838"
+			]
+			id: "46CDDEA5D818FCD8"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/atlatitan_stomp"
+				criterion: ""
+				id: "2F0A9B390EE99351"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57A742D0BA6B4E8A"]
+			id: "595B13E619ADE244"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_subterranodon"
+				criterion: ""
+				id: "593CB9080F06CFB0"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57A742D0BA6B4E8A"]
+			id: "7276CB39C507B4FB"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/breed_grottoceratops"
+				criterion: ""
+				id: "2126A657E82BE740"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"595B13E619ADE244"
+				"7276CB39C507B4FB"
+			]
+			id: "4DEC99D16D16223F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_big_dinosaur"
+				criterion: ""
+				id: "0CCCA55A1684F112"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57A742D0BA6B4E8A"]
+			id: "4099ED49ABF201AC"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tree_star"
+				criterion: ""
+				id: "455DCA902437219B"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4099ED49ABF201AC"]
+			id: "41AC3509B5010C4B"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/fiddlehead"
+				criterion: ""
+				id: "6707AB6023261DF4"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41AC3509B5010C4B"]
+			id: "465BE1E5986BB838"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/serene_salad"
+				criterion: ""
+				id: "54C923B84D901FCF"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7276CB39C507B4FB"]
+			id: "399AE613ECFEA0AA"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cooked_dinosaur_chop"
+				criterion: ""
+				id: "4A51E760ED2618CE"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["399AE613ECFEA0AA"]
+			id: "60F301C655C87AC2"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/dinosaur_nugget"
+				criterion: ""
+				id: "1EB06D2746F43FC1"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60F301C655C87AC2"]
+			id: "4C59BBAD084B3CB9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_vallumraptor"
+				criterion: ""
+				id: "321A6F78576F29EC"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DEC99D16D16223F"]
+			id: "634492B6C24AEB9E"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primordial_armor"
+				criterion: ""
+				id: "4C761A6AB5E3FAB2"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DEC99D16D16223F"]
+			id: "27B9FD83D5DF853B"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primitive_club"
+				criterion: ""
+				id: "113996042F8F5A8F"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"465BE1E5986BB838"
+				"27B9FD83D5DF853B"
+			]
+			id: "216E14FBA24D5C8E"
+			rewards: [
+				{
+					count: 3
+					id: "4007CA2BBC08E2A7"
+					item: "dedsafio3:protector_solar_aplicable"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1701FE959ADE9443"
+					item: "dedsafio3:blue_capsule"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorsaurus"
+				criterion: ""
+				id: "054270B677B8694B"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23374AC3B5F2999F"]
+			id: "76B1C5400A811E4A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trilocaris_bucket"
+				criterion: ""
+				id: "72A551D859B3E094"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76B1C5400A811E4A"]
+			id: "1FA0013E7197B9E9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/feed_relicheirus"
+				criterion: ""
+				id: "24C681C50AB72D15"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3BCACE2A9407FB93"]
+			id: "67364B811F78699A"
+			rewards: [{
+				id: "779542078D534A72"
+				type: "xp"
+				xp: 551
+			}]
+			tasks: [{
+				id: "3F29E04BB610D32B"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "¿Mejor que la netherite?"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4C59BBAD084B3CB9"
+				"216E14FBA24D5C8E"
+			]
+			id: "0E17A6C5A569C068"
+			rewards: [{
+				id: "5D1521D62E3331F8"
+				type: "xp"
+				xp: 510
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/dinosaurs_minecart"
+				criterion: ""
+				id: "508C55D9B9DDCB53"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+	]
+	title: "Fin del mundo "
+}

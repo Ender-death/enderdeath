@@ -1,0 +1,869 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apocalipsis"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "endermanoverhaul:corrupted_pearl"
+	id: "155BC3863914650E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BF98FB6C5560B84"
+			tasks: [{
+				id: "6D4DDF2212DBAFA0"
+				item: "dedsafio3:emptycapsule"
+				type: "item"
+			}]
+			title: "¨La cura¨"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			icon: "ftbquests:book"
+			id: "19EED37FD6409409"
+			rewards: [{
+				id: "4B6DB03008F01618"
+				type: "xp_levels"
+				xp_levels: 160
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "60AB6F09EF2EA27C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Mision diara"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "1A4F4C26D85C598B"
+			tasks: [{
+				id: "026CCC56B7078C61"
+				item: "dedsafio3:procectorsolar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "2CE04EA0997A658A"
+			rewards: [{
+				id: "294AFEF4C3F6DC0F"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:badlands_enderman"
+				id: "3CD5279C1946F924"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "40EE508E53CB238F"
+			rewards: [{
+				id: "60A1F1CC6EF49C5F"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:cave_enderman"
+				id: "2FB6F9827782AAC8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "7EA11CA2F901C9CD"
+			rewards: [{
+				id: "31B15A03AD1B920F"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:coral_enderman"
+				id: "4D375A9DAD2EED0A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "26D49ABDDCDCE591"
+			rewards: [{
+				id: "1B891B0EE003D811"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:crimson_forest_enderman"
+				id: "5407CABE8B8B7C0E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "186022FCB3703E69"
+			rewards: [{
+				id: "5ACA82FB94A25142"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:dark_oak_enderman"
+				id: "74B2EC4B7A109CF8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "038FF741B09AF2C1"
+			rewards: [{
+				id: "3BDC1C087B853696"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:desert_enderman"
+				id: "5ACA43682C6060DE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "3AA5CDBBC371CB4D"
+			rewards: [{
+				id: "5CB6C18641C1C5AC"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:end_enderman"
+				id: "61D14E32DC50BC92"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "52E32DAC3A1028F5"
+			rewards: [{
+				id: "3102FE98E5BA12DE"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:end_islands_enderman"
+				id: "70FA339B6F083410"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "190A2F4E7EC91CAD"
+			rewards: [{
+				id: "5EBB46F41B524471"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:flower_fields_enderman"
+				id: "0266CF8A353FDA66"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "02248802E30E3E4C"
+			rewards: [{
+				id: "15D80B5AAF35289A"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:ice_spikes_enderman"
+				id: "410C78FA52CF96DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "3D68090412995360"
+			rewards: [{
+				id: "18CB8CDDE3CFB0F7"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:mushroom_fields_enderman"
+				id: "2F4025874DB4946B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "73ACE41F7D3B8673"
+			rewards: [{
+				id: "00B31CC8AFB9EB5E"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:nether_wastes_enderman"
+				id: "6FE9DD82451AD999"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "250A263D6F342F90"
+			rewards: [{
+				id: "13D2BACFA5CF6700"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:savanna_enderman"
+				id: "4C2A2A2C070F0CCA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "35B054E87B2316CF"
+			rewards: [{
+				id: "430C1617299129E1"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:snowy_enderman"
+				id: "7962FD77DADE1987"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "7F980D2E367602FB"
+			rewards: [{
+				id: "682D1688A10E8C93"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:soulsand_valley_enderman"
+				id: "15A2DEC2916495B0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "61D26A493288D23B"
+			rewards: [{
+				id: "7BA3004677556988"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:swamp_enderman"
+				id: "1F866054628CDDCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "2BEC8D91E1784481"
+			rewards: [{
+				id: "15B299E5E8FB7593"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:warped_forest_enderman"
+				id: "1F816B21D2653645"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "4AE62647383A5B44"
+			rewards: [{
+				id: "504899E7E332D043"
+				type: "xp"
+				xp: 7
+			}]
+			tasks: [{
+				entity: "endermanoverhaul:windswept_hills_enderman"
+				id: "6F25E8A4A3A01399"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "6E4F8BB816C199C7"
+			rewards: [{
+				id: "49FAB1730ABE64F1"
+				type: "xp"
+				xp: 910
+			}]
+			subtitle: "El Héroe del equipo"
+			tasks: [{
+				id: "370F74F030C41839"
+				item: "deep_dark_regrowth:combusted_soul"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A4F4C26D85C598B"]
+			id: "36454978C0AADBD7"
+			tasks: [{
+				id: "6372968680268537"
+				item: "dedsafio3:protector_solar_aplicable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "7B6A4C0DEB5339AA"
+			rewards: [{
+				count: 2
+				id: "2939F9171918272D"
+				item: "dedsafio3:blue_capsule"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "1AD5E7FB27137649"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B6A4C0DEB5339AA"]
+			id: "60102502E253F85E"
+			rewards: [
+				{
+					id: "7BECF96E75A005DB"
+					type: "xp"
+					xp: 910
+				}
+				{
+					count: 5
+					id: "4DFD637F2C729CD2"
+					item: "dedsafio3:protector_solar_aplicable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "1D55209100D562EB"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6BF98FB6C5560B84"
+				"7A5C82F98F149C96"
+			]
+			id: "36B384782AB15901"
+			rewards: [{
+				count: 2
+				id: "1292D2CAC285BB58"
+				item: "dedsafio3:blue_capsule"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "3CF05F54C7FFCFD6"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36B384782AB15901"]
+			id: "2529B41CD9F97AEB"
+			rewards: [
+				{
+					count: 5
+					id: "66B457EE83F6899E"
+					item: "dedsafio3:blue_capsule"
+					type: "item"
+				}
+				{
+					id: "775F934C162A4F4C"
+					type: "xp"
+					xp: 160
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "6A068252510240B1"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2529B41CD9F97AEB"]
+			id: "2A0847841FDCF2D8"
+			rewards: [{
+				id: "0A272E5EB106CDD4"
+				item: "dedsafio3:procectorsolar"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "0A8F8C712B0C9817"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A0847841FDCF2D8"]
+			id: "42FE7404DD6B2145"
+			rewards: [
+				{
+					count: 3
+					id: "141934BF47B1C637"
+					item: "dedsafio3:procectorsolar"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7A9B6C5AC0A92C40"
+					item: "dedsafio3:protector_solar_aplicable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+				id: "6271500D72FAACD2"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "7A5C82F98F149C96"
+			tasks: [{
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "6E7F30FD03CCE616"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36454978C0AADBD7"]
+			id: "68F6DF85519C209A"
+			tasks: [{
+				id: "23D1E8C71F8F7CA5"
+				item: "dedsafio3:blue_capsule"
+				type: "item"
+			}]
+			title: "¨La salvacion¨"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7A5C82F98F149C96"]
+			id: "0A96385054BBA044"
+			tasks: [{
+				advancement: "friendsandfoes:nether/kill_wildfire"
+				criterion: ""
+				id: "6CF66C540C9BE828"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A96385054BBA044"]
+			id: "017D7FBAAFE10E02"
+			rewards: [{
+				count: 3
+				id: "4358E5D8B4CBBEE0"
+				item: "dedsafio3:procectorsolar"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:nether/obtain_wildfire_crown"
+				criterion: ""
+				id: "1049EE1038F585D5"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B6A4C0DEB5339AA"]
+			id: "67A5017A7BBF3CC7"
+			rewards: [{
+				count: 5
+				id: "37824BADFB7A3F52"
+				item: "dedsafio3:blue_capsule"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "7EF656C860E77298"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7B6A4C0DEB5339AA"]
+			id: "6A8E41AD328CC0ED"
+			rewards: [
+				{
+					count: 5
+					id: "6650EF71A02C4623"
+					item: "dedsafio3:protector_solar_aplicable"
+					type: "item"
+				}
+				{
+					id: "467B6275F58C76DA"
+					type: "xp"
+					xp: 318
+				}
+			]
+			tasks: [{
+				advancement: "farmersdelight:main/obtain_netherite_knife"
+				criterion: ""
+				id: "509968913E11F88C"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"017D7FBAAFE10E02"
+				"36454978C0AADBD7"
+			]
+			id: "6FD2601E9B3379F7"
+			tasks: [{
+				advancement: "cold_sweat:lava_sea"
+				criterion: ""
+				id: "539FCAA16B83C894"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6BF98FB6C5560B84"]
+			id: "4A89190226AE6E34"
+			rewards: [{
+				id: "2CE6293128271EF2"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_map"
+				criterion: ""
+				id: "5BADE365C4D067C0"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A89190226AE6E34"]
+			id: "2D9F5661685FE453"
+			rewards: [{
+				id: "2DA77F8E45B2316F"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+				criterion: ""
+				id: "6DDCDB33DED9A4C3"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0E0E01EF2D250D32"
+				"42FE7404DD6B2145"
+			]
+			id: "580FBA53489F8179"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deepsight"
+				criterion: ""
+				id: "6A35A59AB78204A4"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2D9F5661685FE453"]
+			id: "38677605F3E90BFF"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_ruins"
+				criterion: ""
+				id: "26DDB90711B46E19"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["38677605F3E90BFF"]
+			id: "20DE16A39B9DDF54"
+			rewards: [{
+				id: "742B5808F97CC505"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/diving_armor"
+				criterion: ""
+				id: "28F85B05FF419523"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["20DE16A39B9DDF54"]
+			id: "758ECCEDFEB360FC"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "3D00D9CAE1378623"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["758ECCEDFEB360FC"]
+			id: "7FC7575D2D324706"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/repair_submarine"
+				criterion: ""
+				id: "287C9D8257745333"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["38677605F3E90BFF"]
+			id: "0E0E01EF2D250D32"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/abyssal_bucket"
+				criterion: ""
+				id: "2D7D453325315D4B"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0E0E01EF2D250D32"]
+			id: "104D7A39659EFFD2"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_sea_sushi_roll"
+				criterion: ""
+				id: "1556BC32D281CE52"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["758ECCEDFEB360FC"]
+			id: "55CC6A998CFCEBDB"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_mine_guardian"
+				criterion: ""
+				id: "5AA2093067504B75"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2D9F5661685FE453"]
+			id: "5AFBD58B58FFE6D0"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/mussel"
+				criterion: ""
+				id: "6EAF7405F2EAC902"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5AFBD58B58FFE6D0"]
+			id: "3CCE943EEBE0BCF4"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl"
+				criterion: ""
+				id: "672C055F245AC1C3"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5AFBD58B58FFE6D0"]
+			id: "738D9079C71707F3"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+				criterion: ""
+				id: "68E853CDE3630A50"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"738D9079C71707F3"
+				"3CCE943EEBE0BCF4"
+			]
+			id: "4004A2114CC0E4AD"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "6275EA7FF385BB63"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4004A2114CC0E4AD"]
+			id: "46FE4822E70CB9C6"
+			rewards: [{
+				id: "10B48855BFA8A29A"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trade_with_deep_one"
+				criterion: ""
+				id: "24375AB803E3C6CE"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46FE4822E70CB9C6"]
+			id: "7777C5E6E502A516"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_ones_become_neutral"
+				criterion: ""
+				id: "3826B25CE99F5AD0"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7777C5E6E502A516"]
+			id: "4C9E8C5EF59994E0"
+			rewards: [{
+				id: "36C06FF17CFE67D4"
+				type: "xp"
+				xp: 551
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_ones_become_helpful"
+				criterion: ""
+				id: "6E6EF91B1D31437A"
+				type: "advancement"
+			}]
+			x: 19.0d
+			y: -7.0d
+		}
+	]
+	title: "Apocalipsis"
+}

@@ -1,0 +1,32 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimo_esfuerzo"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "mofus_better_end_:engine_core"
+	id: "58B90AB7F3E00A27"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		icon: "mofus_better_end_:engine_core"
+		id: "7241E2C8D4C49D3A"
+		rewards: [{
+			id: "20557C7BF2A99075"
+			item: "minecraft:dragon_egg"
+			type: "item"
+		}]
+		shape: "heart"
+		subtitle: "Acaba con lo que prometiste acabar"
+		tasks: [{
+			advancement: "minecraft:end/kill_dragon"
+			criterion: ""
+			id: "34826A09EFE97E7A"
+			type: "advancement"
+		}]
+		title: "Ultimo Ezfuerzo"
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "Ultimo esfuerzo"
+}

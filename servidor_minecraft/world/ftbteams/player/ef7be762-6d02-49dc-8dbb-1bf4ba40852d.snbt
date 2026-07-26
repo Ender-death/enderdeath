@@ -1,0 +1,17 @@
+{
+	id: "ef7be762-6d02-49dc-8dbb-1bf4ba40852d"
+	type: "player"
+	player_name: "DarkFlash115"
+	ranks: {
+		ef7be762-6d02-49dc-8dbb-1bf4ba40852d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "DarkFlash115"
+		"ftbteams:description": ""
+		"ftbteams:color": "#6BFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

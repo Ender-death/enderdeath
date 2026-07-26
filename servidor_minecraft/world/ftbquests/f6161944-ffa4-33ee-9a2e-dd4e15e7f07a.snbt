@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "f6161944ffa433ee9a2edd4e15e7f07a"
+	name: "Matias23178_YT#f6161944"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		05DC0AA7EDB4CD66: 1
+	}
+	started: {
+		0C4031D62DECF64D: 1784515761141L
+		4C2F77FD6A4A9331: 1784515761141L
+		05DC0AA7EDB4CD66: 1784515761141L
+		0000000000000001: 1784515761141L
+	}
+	completed: {
+		4C2F77FD6A4A9331: 1784515761142L
+		05DC0AA7EDB4CD66: 1784515761142L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

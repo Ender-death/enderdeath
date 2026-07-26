@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "6ae0feff520d319eb358bdcc105d4d0b"
+	name: "Ikkaruzqh#6ae0feff"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

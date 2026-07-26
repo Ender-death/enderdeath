@@ -1,0 +1,17 @@
+{
+	id: "d53db551-8ad7-47d7-8b5d-c16086e42875"
+	type: "player"
+	player_name: "Marceloig268"
+	ranks: {
+		d53db551-8ad7-47d7-8b5d-c16086e42875: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Marceloig268"
+		"ftbteams:description": ""
+		"ftbteams:color": "#D7FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

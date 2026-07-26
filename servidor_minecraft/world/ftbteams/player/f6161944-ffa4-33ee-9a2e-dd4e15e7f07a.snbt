@@ -1,0 +1,17 @@
+{
+	id: "f6161944-ffa4-33ee-9a2e-dd4e15e7f07a"
+	type: "player"
+	player_name: "Matias23178_YT"
+	ranks: {
+		f6161944-ffa4-33ee-9a2e-dd4e15e7f07a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Matias23178_YT"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5981FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

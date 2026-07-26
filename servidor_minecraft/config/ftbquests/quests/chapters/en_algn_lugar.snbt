@@ -1,0 +1,181 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "en_algn_lugar"
+	group: "2D21138A49AAA735"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "mofus_better_end_:mite_queen_soul"
+	id: "0C4031D62DECF64D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "deep_dark_regrowth:soul_of_the_depths"
+			id: "4C2F77FD6A4A9331"
+			subtitle: "¿Deberia esperar acá?"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "05DC0AA7EDB4CD66"
+				ignore_dimension: false
+				position: [I;
+					26
+					127
+					171
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "¿No se acabo?"
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4C2F77FD6A4A9331"]
+			icon: "minecraft:lever"
+			id: "647F10EF36744833"
+			subtitle: "Supera el primer parkour de las instalaciones"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4B8D45194D4C4BE1"
+				ignore_dimension: false
+				position: [I;
+					33
+					133
+					156
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Novato en Parkour"
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["647F10EF36744833"]
+			icon: "minecraft:ender_eye"
+			id: "74D779EC5EFAB82B"
+			subtitle: "Escapa de la zona de muertos siendo un alma"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "7D633DE1D0D2B71B"
+				ignore_dimension: false
+				position: [I;
+					38
+					129
+					160
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "Incumpliendo las reglas"
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["74D779EC5EFAB82B"]
+			id: "4D276D3D6215949D"
+			subtitle: "Supera el 2do parkour de las instalaciones"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "mofus_better_end_:end_stone_brick_tiles"
+				id: "0148659FA6039051"
+				ignore_dimension: false
+				position: [I;
+					37
+					138
+					166
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Decente en el Parkour"
+				type: "location"
+			}]
+			x: -2.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["647F10EF36744833"]
+			id: "5D8D028FB575D2B9"
+			subtitle: "Mira las estrellas saltando con el trampolin ¿Seran reales?"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "mofus_better_end_:stardust"
+				id: "5BCC26AE03B98287"
+				ignore_dimension: false
+				position: [I;
+					35
+					130
+					153
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Viendo las estrellas"
+				type: "location"
+			}]
+			x: 0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["647F10EF36744833"]
+			id: "3D1E9C204FAAF38F"
+			subtitle: "Lee un mensaje"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:book"
+				id: "0E52C11234FBF6BF"
+				ignore_dimension: false
+				position: [I;
+					36
+					129
+					157
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Lector del pasado"
+				type: "location"
+			}]
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["4D276D3D6215949D"]
+			id: "7A0992734A97EAC6"
+			invisible: true
+			subtitle: "Encuentra una gema oculta, te servira mas adelante"
+			tasks: [{
+				id: "1DFADA21B778C8C6"
+				item: "mofus_better_end_:litchsstinger"
+				type: "item"
+			}]
+			title: "Buen ojo"
+			x: -2.0d
+			y: -24.5d
+		}
+	]
+	title: "En algún lugar"
+}

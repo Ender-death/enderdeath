@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "escondidas"
+	group: "2D21138A49AAA735"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "mofus_better_end_:fos_end_engine"
+	id: "60ADE0FFB6910B26"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["791AC9DEEF71A8E6"]
+			id: "0B39BD1505252F6F"
+			subtitle: "Escapa del Piso -4 ´´sin hacer ruido´´"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "securitycraft:alarm"
+				id: "567B0A7583956310"
+				ignore_dimension: false
+				position: [I;
+					99606
+					-39
+					-99589
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Sin hacer ruido"
+				type: "location"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36FC3B97FF79E052"]
+			id: "5AA5B9312612D393"
+			subtitle: "Toma un atajo por el taller"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "mofus_better_end_:star_portal"
+				id: "7143F881A1089CE3"
+				ignore_dimension: false
+				position: [I;
+					99658
+					-42
+					-99573
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Atajo para mas adelante"
+				type: "location"
+			}]
+			title: "Atajo mecanico "
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"791AC9DEEF71A8E6"
+				"0B39BD1505252F6F"
+			]
+			id: "36FC3B97FF79E052"
+			subtitle: "Descubre todo lo que trae el taller"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "mofus_better_end_:empty_mechanical_heart"
+				id: "659867B11F7D5130"
+				ignore_dimension: false
+				position: [I;
+					99608
+					-38
+					-99543
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "La otra cara del taller"
+				type: "location"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B39BD1505252F6F"]
+			id: "539EB0D8FEBAC8ED"
+			subtitle: "Encuentra el escondite de Méon"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "mofus_better_end_:book_of_void"
+				}
+				id: "7CC65638A2471DB4"
+				ignore_dimension: false
+				position: [I;
+					99676
+					-42
+					-99576
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "Despacho de Méon"
+				type: "location"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["539EB0D8FEBAC8ED"]
+			id: "71F9308F9EB00972"
+			subtitle: "Llega al piso central"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "deep_dark_regrowth:ghost_flowers"
+				id: "655209A96E892D4B"
+				ignore_dimension: false
+				position: [I;
+					99716
+					23
+					-99680
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "¿Un intermedio?"
+				type: "location"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["539EB0D8FEBAC8ED"]
+			icon: "cataclysm:door_of_seal"
+			id: "7EF83A295B00D072"
+			subtitle: "Tan cerca pero tan lejos"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "cataclysm:door_of_seal"
+				id: "7FE57D744E26CEE4"
+				ignore_dimension: false
+				position: [I;
+					99716
+					50
+					-99680
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "La gran puerta"
+				type: "location"
+			}]
+			title: "La gran puerta"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "Escondidas"
+}

@@ -1,0 +1,265 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "masacre"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "mofus_better_end_:poison_pearl"
+	id: "6FAC3A8D97EEA590"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BC8910FA9AEF3A9"
+			subtitle: "¿Donde esta Méon?"
+			tasks: [{
+				icon: "minecraft:compass"
+				id: "42AFAE5C78536C15"
+				title: "¿Y Méon?"
+				type: "custom"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"325BD787DCEF86CB"
+				"26DA054DC7BF5049"
+			]
+			id: "655B2C4E62C75D1F"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_dragon"
+				criterion: ""
+				id: "2BE87FBCE3A67B97"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BC8910FA9AEF3A9"]
+			id: "242542DF6C815DCC"
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+				criterion: ""
+				id: "5E47102B904C2A70"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["325BD787DCEF86CB"]
+			id: "219D974F1AE67A94"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "324B1AB195189F78"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["219D974F1AE67A94"]
+			id: "1FD2762A9D72A8A1"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				id: "689B63AE05034C59"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FD2762A9D72A8A1"]
+			id: "62136732B6B3336C"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "31C61C18A45CA66A"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BC8910FA9AEF3A9"]
+			id: "3A38DC5BA4176FFF"
+			tasks: [{
+				advancement: "netherexp:nether/angel_with_a_shotgun"
+				criterion: ""
+				id: "35EE47861902036C"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A38DC5BA4176FFF"]
+			id: "2DED628A141A3A37"
+			tasks: [{
+				advancement: "netherexp:nether/the_nether_is_full"
+				criterion: ""
+				id: "571012D508B34B38"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2DED628A141A3A37"]
+			id: "6AB921EEE4B98F26"
+			tasks: [{
+				advancement: "netherexp:nether/ultra_overkill"
+				criterion: ""
+				id: "2DF367CEEF48BE6D"
+				type: "advancement"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3A38DC5BA4176FFF"]
+			id: "1F7992EDB8BB7673"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "6E2C183C10D69374"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F7992EDB8BB7673"]
+			id: "6E7D6BAF610C0DD3"
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				id: "747968A2AF3E2D22"
+				type: "advancement"
+			}]
+			x: -14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1BC8910FA9AEF3A9"]
+			id: "04B04C84D305A827"
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "00E3C584B3B82F0B"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04B04C84D305A827"]
+			id: "325BD787DCEF86CB"
+			tasks: [{
+				advancement: "minecraft:end/root"
+				criterion: ""
+				id: "7DF63EC103354D86"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04B04C84D305A827"]
+			id: "26DA054DC7BF5049"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "02AD9936E1C1A677"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BC8910FA9AEF3A9"]
+			icon: "cataclysm:the_incinerator"
+			id: "0D05D1DDF4098B1A"
+			rewards: [{
+				id: "207EFD33E6681CA5"
+				type: "xp"
+				xp: 2923
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "331BF37951501559"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BC8910FA9AEF3A9"]
+			id: "1B63D1A9048C3974"
+			rewards: [{
+				id: "7B67F6CFBA6DD558"
+				type: "xp"
+				xp: 2923
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "5EFEFFAEF2CFBAA4"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BC8910FA9AEF3A9"]
+			id: "7C1A0E7A78EFBF46"
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "271A3AB16544C060"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1BC8910FA9AEF3A9"
+				"2DED628A141A3A37"
+			]
+			hide_dependency_lines: true
+			id: "6EBAB45E53F0B520"
+			shape: "gear"
+			subtitle: "Completa todas las misiones y finales del modo historia de Enderdeath"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "mofus_better_end_:end_archive_book"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+				}
+				id: "2D646E2975D5925A"
+				title: "Amante del 100%"
+				type: "custom"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+	]
+	title: "Masacre"
+}

@@ -1,0 +1,1514 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "la_elite"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "mofus_better_end_:end_energy_pearl"
+	id: "357C7D5603B2A6ED"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F36F108A778C917"
+			tasks: [{
+				id: "1661B6B67DB65026"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "¿Mejor que la netherite?"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			icon: "ftbquests:book"
+			id: "32EB191148EE1F29"
+			rewards: [{
+				id: "5B3052DE6B537362"
+				type: "xp_levels"
+				xp_levels: 551
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5A47F165D63DFF17"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "365EA8B44BA748EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49EE601E8EE6C2BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F3B524A3201D5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mision diara"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			icon: "cataclysm:remnant_skull"
+			id: "2FEC37232F610908"
+			rewards: [{
+				id: "44DE318692CA371B"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "2CB68DFF877A7CB8"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			icon: "cataclysm:cursed_bow"
+			id: "7F2A913C0BDC1D8B"
+			rewards: [{
+				id: "71BEB7AB2F65FD18"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "1E11ABCA7BE0A7E8"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "0AB22B0CE9FA8F9D"
+			rewards: [{
+				id: "1F16B5FBAF07EBA6"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "3DF98FAA1C3D7647"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "3BD390AC242CE9ED"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_phoenix"
+				criterion: ""
+				id: "133046D0F3947779"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "630E92565A4D01F1"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_vile_gator"
+				criterion: ""
+				id: "37EEADAD2D885AA7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "0BA9B316FA26CF83"
+			rewards: [{
+				count: 5
+				id: "54E2C40C857457D3"
+				item: "dedsafio3:protector_solar_aplicable"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "453B115A31937A11"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "55D11F7D3148C3B5"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_yeti"
+				criterion: ""
+				id: "392DEF2D6015EC69"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"67364B811F78699A"
+				"5F36F108A778C917"
+			]
+			id: "137008AC715D5F3C"
+			tasks: [{
+				advancement: "luminousworld:k_ill_bogged_bone_stalker"
+				criterion: ""
+				id: "48C10B1B7ECA9B31"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "2DC75EE141C1A779"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_viper"
+				criterion: ""
+				id: "3A183AE92926772A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "5ABE7F753B80379C"
+			tasks: [{
+				advancement: "luminousworld:kill_golden_king_crab"
+				criterion: ""
+				id: "625289D2439012A1"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "5E57E9739FD1F572"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_witch_doctor"
+				criterion: ""
+				id: "5CCD62D027869161"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "5F1B4C8B7C8CEA4B"
+			tasks: [{
+				advancement: "minecraft:adventure/throw_trident"
+				criterion: ""
+				id: "44F99F50B5D63089"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F1B4C8B7C8CEA4B"]
+			id: "096025CE623FC26D"
+			tasks: [{
+				advancement: "minecraft:adventure/very_very_frightening"
+				criterion: ""
+				id: "6B9E0BD67BD1296B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "1561F0A23EAFA614"
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+				criterion: ""
+				id: "03449DE43D26FDA5"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "06F159E0BDA93426"
+			tasks: [{
+				advancement: "luminousworld:kill_red_mummy"
+				criterion: ""
+				id: "6F209806FBED64DB"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "179F63EE9255148F"
+			tasks: [{
+				advancement: "luminousworld:kill_rare_treeent"
+				criterion: ""
+				id: "0B9B95E6A7A21E5A"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27F4DA70E62D1452"]
+			id: "293C14709350A406"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "79212E3BB35CCE35"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "27F4DA70E62D1452"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_map"
+				criterion: ""
+				id: "5ED500BBA8EEF251"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27F4DA70E62D1452"]
+			id: "69B4E3925B944B52"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+				criterion: ""
+				id: "14C83D8F342C14F6"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27F4DA70E62D1452"]
+			id: "43D8DE1D20D209A4"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_candy_cavity"
+				criterion: ""
+				id: "0BA603FB9DCDB6DB"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["27F4DA70E62D1452"]
+			id: "24F482D879EE4076"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+				criterion: ""
+				id: "11BF0EF8002FBA9B"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["69B4E3925B944B52"]
+			id: "6BDE06DCC946EFFE"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium"
+				criterion: ""
+				id: "1D389164314EDF4B"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6BDE06DCC946EFFE"]
+			icon: "alexscaves:azure_neodymium_ingot"
+			id: "2BAEAD0F3BF81472"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium_ingot"
+				criterion: ""
+				id: "767B64476444CC34"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["69B4E3925B944B52"]
+			id: "64CF90B28BCF716C"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_notor"
+				criterion: ""
+				id: "2FCE39C3172877BE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["64CF90B28BCF716C"]
+			id: "7451676F1BB71661"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hologram_projector"
+				criterion: ""
+				id: "7F2A0C332FADB040"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["69B4E3925B944B52"]
+			id: "36D064C7074913EC"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_boundroid"
+				criterion: ""
+				id: "4F6128D572E17BEA"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["69B4E3925B944B52"]
+			id: "36BFBD8C8D1E8998"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_magnetron"
+				criterion: ""
+				id: "434D000109894BDD"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["36BFBD8C8D1E8998"]
+			id: "73F01200B33696B6"
+			rewards: [{
+				id: "6F9A4676F0FD69C4"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/resistor_shield"
+				criterion: ""
+				id: "6B72638914CA04DD"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["36D064C7074913EC"]
+			id: "730B811537DACFDC"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/quarry"
+				criterion: ""
+				id: "1AC48724975ABFA1"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["730B811537DACFDC"]
+			id: "78F74E8CB8976F4E"
+			rewards: [{
+				id: "1B5EEA27A32489CA"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/finished_quarry"
+				criterion: ""
+				id: "37E388EA4663E43B"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2BAEAD0F3BF81472"]
+			id: "68E240C731E2BC94"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/magnet"
+				criterion: ""
+				id: "5E47A8591D0698CB"
+				type: "advancement"
+			}]
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2BAEAD0F3BF81472"]
+			id: "7A61DE57E9B0413D"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/magnetic_levitation_rail"
+				criterion: ""
+				id: "2D10EE9F451A88E0"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BAEAD0F3BF81472"]
+			id: "5906AF0B4096EC98"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/seeking_arrow"
+				criterion: ""
+				id: "34B51103B3471123"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["69B4E3925B944B52"]
+			id: "2A56212C5941B4B6"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/telecore"
+				criterion: ""
+				id: "46563ECAD05703FA"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A56212C5941B4B6"]
+			id: "472475FB8F8F4FB9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/galena_gauntlet_challenge"
+				criterion: ""
+				id: "0CC49048350F1D02"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["293C14709350A406"]
+			id: "706DCDD00E341FE5"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/uranium"
+				criterion: ""
+				id: "21956209A2E3D10A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["293C14709350A406"]
+			id: "2DB90B7E8255318E"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/enter_acid_with_armor"
+				criterion: ""
+				id: "70D670B88540DF21"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2DB90B7E8255318E"]
+			id: "0E0D776493456177"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/radon_bottle"
+				criterion: ""
+				id: "2803919ABC148F7E"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2DB90B7E8255318E"]
+			id: "2B8DF640F97DB0A7"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/radgill_bucket"
+				criterion: ""
+				id: "15A39B070BA7CDC8"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2B8DF640F97DB0A7"]
+			id: "196CA128D00C2803"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_raycat"
+				criterion: ""
+				id: "577CCC3B0F65ED76"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2DB90B7E8255318E"]
+			id: "660B82E8DD960887"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/acid_create_rust"
+				criterion: ""
+				id: "20110B174FAA4F4A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["706DCDD00E341FE5"]
+			id: "50D9E6498B6A125C"
+			rewards: [{
+				id: "2616BF351793DD06"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_nucleeper"
+				criterion: ""
+				id: "6CEAC29121D83F7A"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["50D9E6498B6A125C"]
+			id: "0D9B6D8055B9C1B8"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/uranium_rod"
+				criterion: ""
+				id: "0D57EC0DE9417BA1"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0D9B6D8055B9C1B8"]
+			id: "53F4E4A0B0266069"
+			rewards: [{
+				id: "3EF02678D140E4BF"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/raygun"
+				criterion: ""
+				id: "624091FD57270038"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["0D9B6D8055B9C1B8"]
+			id: "4F09360C88F8D0CD"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/nuclear_bomb"
+				criterion: ""
+				id: "6B5E1C04F1C0F642"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"4F09360C88F8D0CD"
+				"3543B39211E23C27"
+				"065807160DBA0249"
+			]
+			id: "1A0811A3086F03F1"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_nuclear_bomb"
+				criterion: ""
+				id: "4720A38E8D536F78"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["4F09360C88F8D0CD"]
+			id: "3543B39211E23C27"
+			rewards: [{
+				id: "749B4AE866856E88"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defuse_nuclear_bomb"
+				criterion: ""
+				id: "01C788E88F99DDAD"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1A0811A3086F03F1"]
+			id: "229BCBB795CC937F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tremorzilla_egg"
+				criterion: ""
+				id: "18E48999529ADC66"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["706DCDD00E341FE5"]
+			id: "46A5786F7C6157EC"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/sulfur_dust"
+				criterion: ""
+				id: "179CEC18395B1AD2"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["537D7B779033B97F"]
+			id: "452CE95B50DE8A4D"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/feed_gammaroach"
+				criterion: ""
+				id: "0284E508DDB44037"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["46A5786F7C6157EC"]
+			id: "537D7B779033B97F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/eat_radiation_foods"
+				criterion: ""
+				id: "0614901AEF5A38E2"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["452CE95B50DE8A4D"]
+			id: "5F4FD4B36B9C41C7"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/toxic_paste"
+				criterion: ""
+				id: "6BDD52679BABBBAB"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"5F4FD4B36B9C41C7"
+				"0E0D776493456177"
+				"46A5786F7C6157EC"
+			]
+			id: "2EA7D7F3D1057A07"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/polymer_plate"
+				criterion: ""
+				id: "020193254631714E"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["660B82E8DD960887"]
+			id: "72A00391CA42DF51"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_brainiac"
+				criterion: ""
+				id: "6F6739E0DC25A78A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["706DCDD00E341FE5"]
+			id: "47B2E94D7CFD7D2C"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/nuclear_furnace_component"
+				criterion: ""
+				id: "3DF384AD634DFE6C"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"47B2E94D7CFD7D2C"
+				"50D9E6498B6A125C"
+			]
+			id: "6FEBCDFE20A60049"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stop_nuclear_furnace_meltdown"
+				criterion: ""
+				id: "753CACC2A79F3999"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2EA7D7F3D1057A07"]
+			id: "5AFCBA741AA7E2D7"
+			rewards: [{
+				id: "6976CCEB45210C27"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hazmat_armor"
+				criterion: ""
+				id: "3AF55936587C58B2"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["2EA7D7F3D1057A07"]
+			id: "065807160DBA0249"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/remote_detonation"
+				criterion: ""
+				id: "5166461E12AE7A4B"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["229BCBB795CC937F"]
+			id: "54AA71A4A2FB6FDC"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hatch_tremorzilla_egg"
+				criterion: ""
+				id: "5E5202C79C252614"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["54AA71A4A2FB6FDC"]
+			id: "7BE39BD530CF33DE"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				id: "3BAE85DBC5B0B2F8"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["7BE39BD530CF33DE"]
+			id: "1DFCD90B53E54AD7"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tremorzilla_kill_beam"
+				criterion: ""
+				id: "65EDAC6DF7EA13AB"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["24F482D879EE4076"]
+			id: "5CDEC68FC2D55CEF"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_corrodent"
+				criterion: ""
+				id: "43A6AFCC75C52ED2"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["24F482D879EE4076"]
+			id: "5B26A32E3F6EB597"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/guano"
+				criterion: ""
+				id: "7A54EA8226988AB2"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5CDEC68FC2D55CEF"]
+			id: "15178C0E6D00E908"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/burrowing_arrow"
+				criterion: ""
+				id: "4F36DD01D6C1EEB7"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5B26A32E3F6EB597"]
+			id: "6F6C2960FF40CDAE"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gloomoth"
+				criterion: ""
+				id: "4B07AEC8DC0385FE"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["6F6C2960FF40CDAE"]
+			id: "6433C5DBA3127932"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/moth_ball"
+				criterion: ""
+				id: "0C88043FFF9307A8"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["24F482D879EE4076"]
+			id: "3CDF30A1DC0E0ABF"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_underzealot"
+				criterion: ""
+				id: "0C3047D567896817"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3CDF30A1DC0E0ABF"]
+			id: "314FB6CCB1307743"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				id: "4E28FF18CCEB4205"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["314FB6CCB1307743"]
+			id: "59706BC145AA518A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/desolate_dagger"
+				criterion: ""
+				id: "46E9DA0E3006BAAC"
+				type: "advancement"
+			}]
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["314FB6CCB1307743"]
+			id: "25E4B246798C159A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_watcher"
+				criterion: ""
+				id: "74D37650009581E6"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["25E4B246798C159A"]
+			id: "2E42BF77E39666A9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_forsaken"
+				criterion: ""
+				id: "58B7F493E6D26F2A"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2E42BF77E39666A9"]
+			id: "4C751A72B38953DB"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shadow_silk"
+				criterion: ""
+				id: "7112059BDA8FD968"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["4C751A72B38953DB"]
+			id: "5C94839954C83389"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/dreadbow"
+				criterion: ""
+				id: "37889397944982C6"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["2E42BF77E39666A9"]
+			id: "0C8954A72C63BE9E"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/beholder_far_away"
+				criterion: ""
+				id: "040A2F92C06B4F48"
+				type: "advancement"
+			}]
+			x: -12.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["25E4B246798C159A"]
+			id: "6A7B773BD74DA597"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/totem_of_possession"
+				criterion: ""
+				id: "096F49BD32FC5FFF"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"5C94839954C83389"
+				"6A7B773BD74DA597"
+			]
+			id: "52A10FA212E2E15E"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/eat_darkened_apple"
+				criterion: ""
+				id: "2EDC70D589BBD12C"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"5C94839954C83389"
+				"4C751A72B38953DB"
+				"2E42BF77E39666A9"
+				"25E4B246798C159A"
+				"6A7B773BD74DA597"
+				"52A10FA212E2E15E"
+			]
+			id: "5EE8ED62DE49ADF8"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shadow_armor"
+				criterion: ""
+				id: "7C73423BEAC6FC29"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["5F36F108A778C917"]
+			id: "0E8FC5B4DD3D7904"
+			rewards: [{
+				id: "41F87B5BE39A51C4"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+				id: "78EF28D8A1F59B28"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43D8DE1D20D209A4"]
+			id: "7FA977443D97235C"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/walk_on_rock_candy"
+				criterion: ""
+				id: "4F2E9223699B7D72"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7FA977443D97235C"]
+			id: "74FCBE6F4F014E26"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/eat_block_of_chocolate"
+				criterion: ""
+				id: "572CEEB06244DF8D"
+				type: "advancement"
+			}]
+			x: -14.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7FA977443D97235C"]
+			id: "7023A6C6E185E3C6"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gingerbread_town"
+				criterion: ""
+				id: "0A1E3EB70940D357"
+				type: "advancement"
+			}]
+			x: -14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["74FCBE6F4F014E26"]
+			id: "350A345BE7681B97"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/enter_purple_soda"
+				criterion: ""
+				id: "0F8049C99655D4C4"
+				type: "advancement"
+			}]
+			x: -15.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["74FCBE6F4F014E26"]
+			id: "7E9ECBD7DA9CDBC6"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/licowitch_tower"
+				criterion: ""
+				id: "0A9178CD9B1DC605"
+				type: "advancement"
+			}]
+			x: -18.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["350A345BE7681B97"]
+			id: "129D1CF8A3E5C4A4"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/sweetish_fish_bucket"
+				criterion: ""
+				id: "0119E3486AA0686D"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["350A345BE7681B97"]
+			id: "11ECC000AB509491"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/frostmint_explosion"
+				criterion: ""
+				id: "17076E6F44B01B30"
+				type: "advancement"
+			}]
+			x: -14.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["11ECC000AB509491"]
+			id: "6803686A1A867FA8"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/frostmint_spear"
+				criterion: ""
+				id: "4C2ABEFAD12D75DE"
+				type: "advancement"
+			}]
+			x: -13.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["7023A6C6E185E3C6"]
+			id: "2656AEAE9B3D951A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gingerbread_crumbs"
+				criterion: ""
+				id: "116412EF2CDA0E21"
+				type: "advancement"
+			}]
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7023A6C6E185E3C6"
+				"74FCBE6F4F014E26"
+			]
+			id: "725515D4C4A3B09F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/confection_oven"
+				criterion: ""
+				id: "7BB30CAF9B519932"
+				type: "advancement"
+			}]
+			x: -17.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["129D1CF8A3E5C4A4"]
+			id: "2DD7FF859745A6B6"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gelatin"
+				criterion: ""
+				id: "6A5C27DF3A084719"
+				type: "advancement"
+			}]
+			x: -18.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2DD7FF859745A6B6"]
+			id: "787AA8FB78655CA9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/rainbounce_boots"
+				criterion: ""
+				id: "0281B4AED135CD26"
+				type: "advancement"
+			}]
+			x: -21.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["2DD7FF859745A6B6"]
+			id: "3D22E516CE634BF9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/caramel"
+				criterion: ""
+				id: "4D95C7258F5DA1F8"
+				type: "advancement"
+			}]
+			x: -19.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["2DD7FF859745A6B6"]
+			id: "7C0F3F1A3015CE0A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gummy_rings"
+				criterion: ""
+				id: "66FFABF1DB8ECB24"
+				type: "advancement"
+			}]
+			x: -17.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["129D1CF8A3E5C4A4"]
+			id: "3FF0652C68A6C797"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/feed_gummy_bear"
+				criterion: ""
+				id: "2589985C53E05CF6"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3FF0652C68A6C797"]
+			id: "43AEF3F3F511448E"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/jelly_bean"
+				criterion: ""
+				id: "4880819D650F3085"
+				type: "advancement"
+			}]
+			x: -14.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["74FCBE6F4F014E26"]
+			id: "36E2D9E114B39438"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/sugar_rush"
+				criterion: ""
+				id: "3A513F662C8ACC1D"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["74FCBE6F4F014E26"]
+			id: "1AC79AD2C94995E9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/eat_candy_cane"
+				criterion: ""
+				id: "7882C968C8BD72DC"
+				type: "advancement"
+			}]
+			x: -20.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["74FCBE6F4F014E26"]
+			id: "63D178FE5D3A86B1"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_caniac"
+				criterion: ""
+				id: "51176600FD0F3B94"
+				type: "advancement"
+			}]
+			x: -20.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["63D178FE5D3A86B1"]
+			id: "5C89B25E0B5835FB"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/candy_cane_hook"
+				criterion: ""
+				id: "6B6E67C4AD68B958"
+				type: "advancement"
+			}]
+			x: -22.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["63D178FE5D3A86B1"]
+			id: "1D070A977E84FEA9"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gumbeeper"
+				criterion: ""
+				id: "4E1963ADD99DD206"
+				type: "advancement"
+			}]
+			x: -20.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1D070A977E84FEA9"]
+			id: "3CF7F415570B5050"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shot_gum"
+				criterion: ""
+				id: "10C1E8E6FFFBFBC3"
+				type: "advancement"
+			}]
+			x: -22.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["5C89B25E0B5835FB"]
+			id: "4D35DEA706C64FA4"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gobthumper"
+				criterion: ""
+				id: "32EF6BFD8D06593F"
+				type: "advancement"
+			}]
+			x: -25.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["4D35DEA706C64FA4"]
+			id: "6476AC27B6136E5E"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gum_worm"
+				criterion: ""
+				id: "4A8CF6C237DEB6F9"
+				type: "advancement"
+			}]
+			x: -27.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"4D35DEA706C64FA4"
+				"5C89B25E0B5835FB"
+			]
+			id: "62FA02F2F8742281"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_gum_worm"
+				criterion: ""
+				id: "1D5FA4F4B8C46358"
+				type: "advancement"
+			}]
+			x: -27.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6476AC27B6136E5E"]
+			id: "353B6F602F47A154"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/sack_of_sating"
+				criterion: ""
+				id: "161ED4CBD6230D37"
+				type: "advancement"
+			}]
+			x: -28.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["7E9ECBD7DA9CDBC6"]
+			id: "2616A6C1DE257A7A"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/radiant_essence"
+				criterion: ""
+				id: "41152DDDD35C0879"
+				type: "advancement"
+			}]
+			x: -21.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2616A6C1DE257A7A"]
+			id: "29B36DC241F64AF6"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/conversion_crucible"
+				criterion: ""
+				id: "4532972854EAD9A4"
+				type: "advancement"
+			}]
+			x: -24.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["29B36DC241F64AF6"]
+			id: "15C4D62FB5DC2013"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/convert_biome"
+				criterion: ""
+				id: "6BEFE31414ED5C28"
+				type: "advancement"
+			}]
+			x: -26.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["15C4D62FB5DC2013"]
+			id: "5CCB4EF174F857C6"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/convert_nether_biome"
+				criterion: ""
+				id: "611EA7924BF2510C"
+				type: "advancement"
+			}]
+			x: -29.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4C9E8C5EF59994E0"]
+			id: "1DDD500DA9EDCEA7"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_one_items"
+				criterion: ""
+				id: "7B16DF4ADA07195A"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			id: "345654C57162E7D5"
+			subtitle: "¿Donde esta Méon?"
+			tasks: [{
+				icon: "minecraft:compass"
+				id: "7320DF2409436792"
+				title: "¿Y Méon?"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: -49.0d
+		}
+	]
+	title: "La Elite "
+}

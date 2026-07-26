@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "proximamente"
+	group: "2D21138A49AAA735"
+	id: "68BB543C61DDB1F7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "3CCA7C0DDC764938"
+		shape: "rsquare"
+		subtitle: "¿Y si hubiera algo despues de la muerte?"
+		tasks: [{
+			icon: "deep_dark_regrowth:soul_of_the_depths"
+			id: "16CD313A32D267B7"
+			title: "PROXIMAMENTE"
+			type: "custom"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "PROXIMAMENTE"
+}

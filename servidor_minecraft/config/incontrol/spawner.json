@@ -1,0 +1,14 @@
+[[
+  {
+    "mob": "minecraft:zombie",
+    "persecond": 1.0,
+    "attempts": 100,
+    "amount": {
+      "minimum": 10,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld"
+    }
+  }
+]]

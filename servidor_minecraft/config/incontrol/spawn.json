@@ -1,0 +1,7 @@
+[[
+  {
+    "mob": "minecraft:blaze",
+    "result": "allow",
+    "dimension": "minecraft:overworld"
+  }
+]]

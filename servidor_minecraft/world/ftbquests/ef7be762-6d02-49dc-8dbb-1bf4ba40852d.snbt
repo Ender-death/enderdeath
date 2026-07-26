@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "ef7be7626d0249dc8dbb1bf4ba40852d"
+	name: "DarkFlash115#ef7be762"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

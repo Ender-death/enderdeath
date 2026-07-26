@@ -1,0 +1,17 @@
+{
+	id: "262f172f-c966-42e4-9ace-04e10285196a"
+	type: "player"
+	player_name: "Karlitos89"
+	ranks: {
+		262f172f-c966-42e4-9ace-04e10285196a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Karlitos89"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

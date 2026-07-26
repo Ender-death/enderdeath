@@ -1,0 +1,707 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "donde_estamos"
+	group: "4A9DA1FEA0B22B7C"
+	icon: "minecraft:ender_pearl"
+	id: "306AD4C668C64F7B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["392F2E830C6ABCFF"]
+			id: "2C0313DACFB254AC"
+			tasks: [{
+				id: "68443E7128B41BBC"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El inicio de un caballero"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["392F2E830C6ABCFF"]
+			id: "5AC495645DE1003F"
+			tasks: [{
+				id: "67082881BF2EC598"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El inicio de un asesino"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["392F2E830C6ABCFF"]
+			id: "2FEA4476BCEF4A35"
+			tasks: [{
+				id: "5A2ACAA7B7D531F7"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El inicio de un minero"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["392F2E830C6ABCFF"]
+			id: "689F28913FC3A798"
+			tasks: [{
+				id: "31C6BFE88E237375"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El inicio de seba"
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"5AC495645DE1003F"
+				"2C0313DACFB254AC"
+				"2FEA4476BCEF4A35"
+			]
+			icon: "minecraft:zombie_head"
+			id: "143F34F29DC2C86C"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "2686036E7046CACF"
+				type: "advancement"
+			}]
+			title: "Con cuidado"
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["689F28913FC3A798"]
+			id: "289CBCDDE99DAB37"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "248A28426E989156"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["689F28913FC3A798"]
+			icon: "minecraft:wheat_seeds"
+			id: "78E7B01345D0A14D"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "4A950D28644E340B"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["143F34F29DC2C86C"]
+			id: "6B9827FF9FC3F5FA"
+			tasks: [{
+				id: "38524580A89F22FC"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aimbot"
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["289CBCDDE99DAB37"]
+			id: "22CEE4D568926EE3"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "46A9A1CAD7126A5C"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["22CEE4D568926EE3"]
+			icon: "minecraft:tropical_fish"
+			id: "728B5B85E46BE839"
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "13EA1E8A5AF12B59"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["78E7B01345D0A14D"]
+			id: "49CFD2A50C98DE57"
+			rewards: [{
+				id: "438533B27CD6D587"
+				type: "xp"
+				xp: 910
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				id: "0D5DF9FF5F1826C5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["78E7B01345D0A14D"]
+			id: "468DF582C2928D0E"
+			tasks: [{
+				advancement: "farmersdelight:main/get_fd_seed"
+				criterion: ""
+				id: "395FEFB035A02557"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["468DF582C2928D0E"]
+			id: "3D0399A1FF5A8BEC"
+			tasks: [{
+				advancement: "farmersdelight:main/harvest_ropelogged_tomato"
+				criterion: ""
+				id: "302567D6CF2E976A"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["468DF582C2928D0E"]
+			id: "2D08E21AB0FDF96C"
+			tasks: [{
+				advancement: "farmersdelight:main/plant_rice"
+				criterion: ""
+				id: "16AB737773771A6B"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["468DF582C2928D0E"]
+			id: "10F262EECFAA77D8"
+			tasks: [{
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+				id: "7E4D2C590A35F289"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0FDD154A755753F7"]
+			id: "392F2E830C6ABCFF"
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "681191517DEBEBA8"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "0FDD154A755753F7"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "26BB9D3AE73D2A66"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FEA4476BCEF4A35"]
+			id: "0D5636BDB61C5C1F"
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "49DE3C91013EF070"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0D5636BDB61C5C1F"]
+			id: "774A12C144B55DDA"
+			tasks: [{
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+				id: "4A6B5E9EB01A2932"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D5636BDB61C5C1F"]
+			id: "773B5ACCF5949494"
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "22842B49202F4C9E"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3E4517220BE08F33"]
+			id: "0808860DC8F5906F"
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				id: "342CD5F59E266786"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["773B5ACCF5949494"]
+			id: "3E4517220BE08F33"
+			rewards: [{
+				id: "15D7D6E68AA80AEE"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "43C5B61A319C43BC"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0808860DC8F5906F"]
+			id: "57927C35E08C5E21"
+			rewards: [{
+				count: 15
+				id: "4AB6BA5D00EC17F3"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "427B3250870786D9"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0FDD154A755753F7"]
+			icon: "ftbquests:book"
+			id: "6F5D301C5AB48A9B"
+			rewards: [{
+				id: "1439D4E0BC1EDBE9"
+				type: "xp"
+				xp: 551
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "79D7D73CB97FBBED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2150A5C6C3CA5CBB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46E2D09E4265E8DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39D4DE887A5D43D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E7B875E66EDEED0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mision diaria"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["728B5B85E46BE839"]
+			id: "1E7F1BA3757CB80B"
+			tasks: [{
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+				id: "3D7A4924A0C724D6"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["728B5B85E46BE839"]
+			id: "2DFC4AC5D066E565"
+			tasks: [{
+				advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+				criterion: ""
+				id: "51725D160083C676"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["2C0313DACFB254AC"]
+			id: "62215E0D2FA12F98"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "6D37EE3183E721AE"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5AC495645DE1003F"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "328BB656B7D1856D"
+			rewards: [
+				{
+					id: "2D45721763727FC8"
+					type: "xp"
+					xp: 2923
+				}
+				{
+					id: "7C04D43C407A5C3D"
+					item: "netherexp:shotgun_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				id: "446BD519760192BE"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B9827FF9FC3F5FA"]
+			id: "46E1BC28FA38671D"
+			tasks: [{
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+				id: "36B2A37462448ACE"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"62215E0D2FA12F98"
+				"5EC70DFAF5F3ECB8"
+			]
+			id: "750E2D5554223F43"
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "7E45214305717664"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["750E2D5554223F43"]
+			id: "665B5376600968EB"
+			rewards: [
+				{
+					count: 10
+					id: "5CA768C872BD6A48"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "2DCF232BA2D2FF14"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/summon_copper_golem"
+				criterion: ""
+				id: "729CA13E19B6D017"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["62215E0D2FA12F98"]
+			id: "5EC70DFAF5F3ECB8"
+			tasks: [{
+				advancement: "minecraft:adventure/voluntary_exile"
+				criterion: ""
+				id: "1A7AB62A55D02930"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"4E2AFE40D3461468"
+				"3C7B9E52F96F47EC"
+				"5EC70DFAF5F3ECB8"
+				"6F2ED377134F0130"
+			]
+			icon: {
+				Count: 1
+				id: "dedsafio3:espada"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15573BF107BE30D0"
+			rewards: [{
+				id: "18976C04C3E60D3B"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "3CA36196182395F8"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5EC70DFAF5F3ECB8"]
+			icon: "friendsandfoes:totem_of_illusion"
+			id: "4E2AFE40D3461468"
+			rewards: [{
+				count: 3
+				id: "65D5879DEA597B34"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_invisibility"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+				id: "7629450193A6476A"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5EC70DFAF5F3ECB8"]
+			icon: "friendsandfoes:totem_of_freezing"
+			id: "3C7B9E52F96F47EC"
+			rewards: [{
+				count: 3
+				id: "762810A670C7DF76"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+				id: "2C18E48F13B45FDE"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"4E2AFE40D3461468"
+				"3C7B9E52F96F47EC"
+				"5EC70DFAF5F3ECB8"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "6F2ED377134F0130"
+			rewards: [{
+				count: 3
+				id: "675604A3AF14C645"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				id: "5820BCC8C3822E49"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0808860DC8F5906F"]
+			id: "129338659D39DD00"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4C8629A9293F0B4A"
+				type: "dimension"
+			}]
+			title: "Ve al Nether"
+			x: -1.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["6B9827FF9FC3F5FA"]
+			id: "70682BFD4DAE040C"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_parrot"
+				criterion: ""
+				id: "76E8132768CE43C1"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+	]
+	title: "¿Donde estamos?"
+}

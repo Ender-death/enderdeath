@@ -1,0 +1,722 @@
+[26Jul2026 05:21:00.954] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[26Jul2026 05:21:00.962] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[26Jul2026 05:21:10.244] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Jul2026 05:21:10.359] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/enderdeath/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Jul2026 05:21:11.551] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/enderdeath/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[26Jul2026 05:21:11.553] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/enderdeath/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[26Jul2026 05:21:11.554] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/enderdeath/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[26Jul2026 05:21:11.556] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/enderdeath/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[26Jul2026 05:21:12.596] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/enderdeath/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[26Jul2026 05:21:12.597] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 22 dependencies adding them to mods collection
+[26Jul2026 05:21:18.965] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Jul2026 05:21:19.084] [main/ERROR] [mixin/]: Mixin config copperagebackport.forge.mixins.json does not specify "minVersion" property
+[26Jul2026 05:21:19.544] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[26Jul2026 05:21:19.608] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[26Jul2026 05:21:20.710] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 98 options available, 0 override(s) found
+[26Jul2026 05:21:20.711] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[26Jul2026 05:21:20.764] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[26Jul2026 05:21:20.892] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2026 05:21:21.016] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2026 05:21:21.167] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2026 05:21:21.173] [main/WARN] [mixin/]: Reference map 'mixins.luminousworld.refmap.json' for mixins.luminousworld.json could not be read. If this is a development environment you can ignore this message
+[26Jul2026 05:21:21.459] [main/INFO] [Puzzles Lib/]: Loading 99 mods:
+	- aiimprovements 0.5.2
+	- alexscaves 2.0.2
+	- alternate_current 1.7.0
+	- architectury 9.2.14
+	- better_totem_of_undying 2.1.1
+	- betterendisland 1.20-Forge-2.0.6
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettertridents 8.0.1
+	- bookshelf 20.2.13
+	- cataclysm 3.07
+	- cerbons_api 1.1.0
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- cold_sweat 2.4
+	- collective 8.13
+	- connectivity 1.20.1-7.2
+	- copperagebackport 0.1.4
+	- cosmeticarmorreworked 1.20.1-v1a
+	- creativecore 2.12.32
+	- creeperoverhaul 3.0.2
+	- cristellib 1.1.6
+	- cupboard 1.20.1-2.7
+	- curios 5.14.1+1.20.1
+	- dedsafio3 0.0.9
+	- deep_dark_regrowth 1.2.6.1
+	- deltaboxlib 2.2.0
+	- easy_npc 6.25.0
+	- easy_npc_bundle 6.25.0
+	- easy_npc_config_ui 6.25.0
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- easyshulkerboxes 8.0.2
+		\-- puzzlesapi 8.1.6
+	- elysium_api 1.1.3
+	- endermanoverhaul 1.0.4
+	- endersdelight 1.1.3
+	- explosiveenhancement 1.1.0
+	- farmersdelight 1.20.1-1.2.9
+	- fastasyncworldsave 1.20.1-2.6
+	- fastsuite 5.1.0
+	- fdlib 1.0.9
+	- ferritecore 6.0.1
+	- forge 47.4.10
+	- formations 1.0.4
+	- formationsnether 1.0.5
+	- fragmentum 1.0.5
+	- framework 0.7.15
+	- friendsandfoes 3.0.9
+	- ftblibrary 2001.2.10
+	- ftbquests 2001.4.16
+	- ftbteams 2001.3.0
+	- geckolib 4.8.2
+	- handcrafted 3.0.6
+	- healingcampfire 6.2
+	- iceberg 1.1.25
+	- icterine 1.3.0
+	- incontrol 1.20-9.4.6
+	- jei 15.20.0.130
+	- jupiter 2.2.2
+	- justlevelingfork 1.2.1
+	- konkrete 1.8.0
+	- kotlinforforge 4.12.0
+	- lionfishapi 2.7
+	- lootr 0.7.35.94
+	- luminous_nether 1.3.2
+	- luminoustag 1.1
+	- luminousworld 1.5.2
+	- lunar 0.2.7
+	- minecraft 1.20.1
+	- modernfix 5.25.1+mc1.20.1
+	- mofus_better_end_ 1.0.0
+	- moogs_structures 1.1.0-1.20-1.20.4
+	- moonlight 1.20-2.16.16
+	- movingelevators 1.4.12
+	- mr_limesplatus_ending 1-v1.1.0c
+	- musicbox 2.0.2
+	- mutantmonsters 8.0.8
+	- mvs 5.0.21
+	- naturalist 5.0pre5
+		\-- midnightlib 1.4.2
+	- netherexp 2.3.5
+	- onlylooking 1.20.1-4.1.1
+	- placebo 8.6.3
+	- platform 1.3.2
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- raidsenhanced 1.0.2
+	- refurbished_furniture 1.0.20
+	- resourcefulconfig 2.1.3
+	- resourcefullib 2.1.29
+	- securitycraft 1.10.1
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.21
+	- tact 1.5.2
+	- terrablender 3.0.1.10
+	- trials 2.3.4
+	- yet_another_config_lib_v3 3.6.6+1.20.1-forge
+	- yungsapi 1.20-Forge-4.0.6
+[26Jul2026 05:21:22.062] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jul2026 05:21:23.983] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jul2026 05:21:24.032] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jul2026 05:21:25.363] [main/WARN] [mixin/]: Error loading class: net/bettercombat/client/collision/TargetFinder (java.lang.ClassNotFoundException: net.bettercombat.client.collision.TargetFinder)
+[26Jul2026 05:21:25.365] [main/WARN] [mixin/]: @Mixin target net.bettercombat.client.collision.TargetFinder was not found justlevelingfork.mixins.json:MixTargetFinder
+[26Jul2026 05:21:25.974] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26Jul2026 05:21:25.977] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[26Jul2026 05:21:25.978] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found fragmentum.mixins.json:MixinMinecraft
+[26Jul2026 05:21:26.687] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/KeyboardInput (java.lang.ClassNotFoundException: net.minecraft.client.player.KeyboardInput)
+[26Jul2026 05:21:26.688] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.KeyboardInput was not found fdlib.mixins.json:KeyboardInputMixin
+[26Jul2026 05:21:26.836] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
+[26Jul2026 05:21:26.837] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
+[26Jul2026 05:21:27.413] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[26Jul2026 05:21:29.506] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (36.78 s after launch)
+[26Jul2026 05:21:30.405] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Jul2026 05:21:30.407] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Jul2026 05:21:34.838] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jul2026 05:21:34.839] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jul2026 05:21:35.165] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5613 milliseconds
+[26Jul2026 05:21:36.271] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jul2026 05:21:36.272] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jul2026 05:21:38.175] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zni000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[26Jul2026 05:21:39.486] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[26Jul2026 05:21:40.436] [modloading-worker-0/INFO] [Easy NPC: Core/]: Initializing Easy NPC (Forge) ...
+[26Jul2026 05:21:40.440] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Debug Manager ...
+[26Jul2026 05:21:40.443] [modloading-worker-0/WARN] [Easy NPC: Core/]: [Debug Manager] Detected debug log level for Easy NPC: Core with ALL!
+[26Jul2026 05:21:40.444] [modloading-worker-0/WARN] [Easy NPC: Core/]: [Debug Manager] Adjusting log level for Easy NPC: Core from ALL to INFO, for performance reasons!
+[26Jul2026 05:21:40.444] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Debug Manager] Add new logger config for Easy NPC: Core with level INFO ...
+[26Jul2026 05:21:40.451] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Constants ...
+[26Jul2026 05:21:40.456] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Configuration ...
+[26Jul2026 05:21:40.459] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Config] Registering common configuration ...
+[26Jul2026 05:21:40.482] [modloading-worker-0/INFO] [Easy NPC: Core/]: Initialized 740 supported and 349 unsupported entity types from defaults.
+[26Jul2026 05:21:40.514] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[26Jul2026 05:21:40.519] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Config] Registering server configuration ...
+[26Jul2026 05:21:40.521] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Common Data Files ...
+[26Jul2026 05:21:40.523] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Common data folders ...
+[26Jul2026 05:21:40.526] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Entity Data Serializers ...
+[26Jul2026 05:21:40.667] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Compatibility Handler ...
+[26Jul2026 05:21:40.670] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Compat Handler ...
+[26Jul2026 05:21:40.673] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Compat Manager] Epic Fight mod with id 'epicfight' loaded: false
+[26Jul2026 05:21:40.677] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Compat Manager] Cobblemon mod with id 'cobblemon' loaded: false
+[26Jul2026 05:21:40.680] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Command Argument Types ...
+[26Jul2026 05:21:40.694] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Entity Types ...
+[26Jul2026 05:21:42.156] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 30 raw entity types.
+[26Jul2026 05:21:42.156] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 35 NPC entity types.
+[26Jul2026 05:21:42.157] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 4 custom entity types.
+[26Jul2026 05:21:42.158] [modloading-worker-0/INFO] [Easy NPC: Core/]: Initializing user-defined NPC registry...
+[26Jul2026 05:21:42.161] [modloading-worker-0/INFO] [Easy NPC: Core/]: Loaded 2 user-defined NPC configurations
+[26Jul2026 05:21:42.162] [modloading-worker-0/INFO] [Easy NPC: Core/]: Successfully registered 2 out of 2 user-defined NPCs
+[26Jul2026 05:21:42.164] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 2 user-defined entity types.
+[26Jul2026 05:21:42.165] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Blocks ...
+[26Jul2026 05:21:42.170] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Blocks Entity Types ...
+[26Jul2026 05:21:42.170] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Items ...
+[26Jul2026 05:21:42.240] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.243] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.243] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.243] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.243] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.243] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.243] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[26Jul2026 05:21:42.455] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[26Jul2026 05:21:42.456] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[26Jul2026 05:21:42.692] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerConvergenceItemsConfig from '/workspaces/enderdeath/servidor_minecraft/config/JLFork/justleveling-fork.convergence-items.json5'
+[26Jul2026 05:21:42.722] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerTitlesConfig from '/workspaces/enderdeath/servidor_minecraft/config/JLFork/justleveling-fork.titles.json5'
+[26Jul2026 05:21:42.768] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 35 NPC spawn eggs.
+[26Jul2026 05:21:42.768] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 4 custom spawn eggs.
+[26Jul2026 05:21:42.771] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Menu Types ...
+[26Jul2026 05:21:42.774] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Menu Handler ...
+[26Jul2026 05:21:42.783] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Network Handler ...
+[26Jul2026 05:21:42.793] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registering server network handler for Server -> Client messages.
+[26Jul2026 05:21:42.794] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Client Network Message Handler ...
+[26Jul2026 05:21:42.818] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerCommonConfig from '/workspaces/enderdeath/servidor_minecraft/config/JLFork/justleveling-fork.common.json5'
+[26Jul2026 05:21:42.851] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing HandlerLockItemsConfig from '/workspaces/enderdeath/servidor_minecraft/config/JLFork/justleveling-fork.lockItems.json5'
+[26Jul2026 05:21:43.320] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Loaded config: golemBuildSpawning=true, golemPressesButtons=true, buttonPressChance=5%, golemTransportStackSize=16, weatheringTickFrom=504000, weatheringTickTo=552000
+[26Jul2026 05:21:43.367] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Initializing Copper-Age-Backport on Forge
+[26Jul2026 05:21:43.369] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering sounds for Copper-Age-Backport
+[26Jul2026 05:21:43.402] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering memory module types for Copper-Age-Backport
+[26Jul2026 05:21:43.422] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering particles for Copper-Age-Backport
+[26Jul2026 05:21:43.452] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering blocks for Copper-Age-Backport
+[26Jul2026 05:21:43.698] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering block entities for Copper-Age-Backport
+[26Jul2026 05:21:43.714] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering entities for Copper-Age-Backport
+[26Jul2026 05:21:43.747] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Registering items for Copper-Age-Backport
+[26Jul2026 05:21:43.972] [modloading-worker-0/INFO] [Copper-Age-Backport/]: ModCompat: Mod 'fastchest' not loaded, skipping compatibility module
+[26Jul2026 05:21:43.983] [modloading-worker-0/INFO] [Copper-Age-Backport/]: ModCompat: Mod 'sophisticatedstorage' not loaded, skipping compatibility module
+[26Jul2026 05:21:43.989] [modloading-worker-0/INFO] [Copper-Age-Backport/]: ModCompat: Mod 'ironchest' not loaded, skipping compatibility module
+[26Jul2026 05:21:43.989] [modloading-worker-0/INFO] [Copper-Age-Backport/]: ModCompat: Initializing 0 compatibility modules...
+[26Jul2026 05:21:43.989] [modloading-worker-0/INFO] [Copper-Age-Backport/]: ModCompat: Initialization complete. 0 chest handlers, 0 container handlers registered.
+[26Jul2026 05:21:43.992] [modloading-worker-0/INFO] [Copper-Age-Backport/]: Copper-Age-Backport initialized successfully!
+[26Jul2026 05:21:45.226] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[26Jul2026 05:21:45.238] [modloading-worker-0/INFO] [com.seniors.justlevelingfork.JustLevelingFork/]: >> NEW VERSION AVAILABLE: 1.2.4
+[26Jul2026 05:21:45.577] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Jul2026 05:21:45.605] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[26Jul2026 05:21:45.630] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: Initializing Easy NPC: Config UI (Forge) ...
+[26Jul2026 05:21:45.632] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Debug Manager ...
+[26Jul2026 05:21:45.632] [modloading-worker-0/WARN] [Easy NPC: Config UI/]: [Debug Manager] Detected debug log level for Easy NPC: Config UI with ALL!
+[26Jul2026 05:21:45.633] [modloading-worker-0/WARN] [Easy NPC: Config UI/]: [Debug Manager] Adjusting log level for Easy NPC: Config UI from ALL to INFO, for performance reasons!
+[26Jul2026 05:21:45.634] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: [Debug Manager] Add new logger config for Easy NPC: Config UI with level INFO ...
+[26Jul2026 05:21:45.637] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Constants ...
+[26Jul2026 05:21:45.638] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Items ...
+[26Jul2026 05:21:45.643] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Menu Types ...
+[26Jul2026 05:21:45.680] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Menu Handler ...
+[26Jul2026 05:21:45.687] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Network Handler ...
+[26Jul2026 05:21:45.693] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: Registering server network handler for Server -> Client messages.
+[26Jul2026 05:21:45.694] [modloading-worker-0/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Client Network Message Handler ...
+[26Jul2026 05:21:45.950] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyshulkerboxes:main
+[26Jul2026 05:21:45.991] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:iteminteractions
+[26Jul2026 05:21:46.070] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:slotcycling
+[26Jul2026 05:21:46.074] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:limitlesscontainers
+[26Jul2026 05:21:46.100] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:statues
+[26Jul2026 05:21:46.141] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[26Jul2026 05:21:46.182] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[26Jul2026 05:21:46.189] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[26Jul2026 05:21:46.192] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[26Jul2026 05:21:46.197] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[26Jul2026 05:21:46.199] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[26Jul2026 05:21:46.211] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[26Jul2026 05:21:46.373] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[26Jul2026 05:21:46.661] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[26Jul2026 05:21:46.661] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[26Jul2026 05:21:48.635] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[26Jul2026 05:21:48.639] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[26Jul2026 05:21:48.647] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[26Jul2026 05:21:48.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[26Jul2026 05:21:48.651] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[26Jul2026 05:21:48.655] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[26Jul2026 05:21:48.661] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[26Jul2026 05:21:48.664] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[26Jul2026 05:21:48.665] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[26Jul2026 05:21:48.669] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[26Jul2026 05:21:48.681] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[26Jul2026 05:21:48.685] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[26Jul2026 05:21:48.688] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[26Jul2026 05:21:48.693] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[26Jul2026 05:21:48.694] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[26Jul2026 05:21:48.697] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[26Jul2026 05:21:48.698] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[26Jul2026 05:21:48.701] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[26Jul2026 05:21:48.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[26Jul2026 05:21:48.708] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[26Jul2026 05:21:48.710] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[26Jul2026 05:21:48.718] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[26Jul2026 05:21:48.720] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[26Jul2026 05:21:48.721] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[26Jul2026 05:21:49.288] [modloading-worker-0/INFO] [de.markusbordihn.easynpc.bundle.EasyNPCBundleMod/]: Loading Easy NPC Bundle
+[26Jul2026 05:21:49.288] [modloading-worker-0/INFO] [de.markusbordihn.easynpc.bundle.EasyNPCBundleMod/]: This bundle includes Easy NPC Core and Easy NPC Config UI
+[26Jul2026 05:21:50.183] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for bettertridents:main
+[26Jul2026 05:21:50.365] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[26Jul2026 05:21:50.401] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/enderdeath/servidor_minecraft/config/yacl.json5'
+[26Jul2026 05:21:50.466] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[26Jul2026 05:21:53.427] [main/INFO] [Cold Sweat/]: Gathering Cold Sweat registries
+[26Jul2026 05:21:53.428] [main/INFO] [Cold Sweat/]: The event bus was started early to gather Cold Sweat registries; it will now be stopped again until the correct loading phase.
+[26Jul2026 05:21:54.138] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on cold_sweat.mixin.json:MixinRegistration::handler$bkm000$loadRegistryContents exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[26Jul2026 05:21:58.505] [main/WARN] [supermartijn642corelib/]: Could not find value 'formations:template_editor' in registry 'minecraft:item' for @RegistryEntryAcceptor!
+[26Jul2026 05:21:59.252] [main/WARN] [Moonlight/]: Failed to find child for WoodType: luminous_nether:mushroom - stick. Ignored! ERROR: No value present
+[26Jul2026 05:21:59.279] [main/INFO] [Moonlight/]: Initialized block sets in 30ms
+[26Jul2026 05:22:00.184] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda$19176/0x000074e17261aaf0@6ff547ca] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@36fcd471] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[26Jul2026 05:22:00.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.ReplaceItemModifier$$Lambda$19181/0x000074e17261b630@5a89b548] * Field[conditions: passthrough[flatXmapped]] * Field[removed_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@36fcd471] * Field[added_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@36fcd471] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:replace_item.
+[26Jul2026 05:22:00.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda$19184/0x000074e17261bd00@7af89ecf] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[26Jul2026 05:22:00.186] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda$19187/0x000074e17261e480@72e78e59] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@36fcd471]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[26Jul2026 05:22:00.261] [main/INFO] [Easy NPC: Core/]: Used vanilla attributes for user-defined entity example_villager with base type entity.minecraft.villager
+[26Jul2026 05:22:00.262] [main/INFO] [Easy NPC: Core/]: Used vanilla attributes for user-defined entity example_zombie with base type entity.minecraft.zombie
+[26Jul2026 05:22:00.340] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[26Jul2026 05:22:00.724] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[26Jul2026 05:22:00.754] [main/INFO] [Puzzles Lib/]: Loading common config for bettertridents
+[26Jul2026 05:22:00.971] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[26Jul2026 05:22:01.148] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: 0 Jupiter entrypoint(s) detected: 
+[26Jul2026 05:22:01.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[26Jul2026 05:22:01.615] [main/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Network Handler for net.minecraftforge.network.simple.SimpleChannel@472c033e with version 30
+[26Jul2026 05:22:01.616] [main/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Network Handler ...
+[26Jul2026 05:22:01.617] [main/INFO] [Easy NPC: Core/]: Registering network messages for BOTH side ...
+[26Jul2026 05:22:01.731] [main/INFO] [Copper-Age-Backport/]: Fired 1 registration callbacks
+[26Jul2026 05:22:01.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[26Jul2026 05:22:01.739] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[26Jul2026 05:22:01.847] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[26Jul2026 05:22:01.855] [main/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Network Handler for net.minecraftforge.network.simple.SimpleChannel@55015094 with version 30
+[26Jul2026 05:22:01.858] [main/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI Network Handler ...
+[26Jul2026 05:22:01.860] [main/INFO] [Easy NPC: Config UI/]: Registering network messages for BOTH side ...
+[26Jul2026 05:22:01.860] [main/INFO] [Easy NPC: Config UI/]: Registering client network handler ...
+[26Jul2026 05:22:01.869] [main/INFO] [Easy NPC: Config UI/]: Registering server network handler ...
+[26Jul2026 05:22:01.964] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[26Jul2026 05:22:01.964] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[26Jul2026 05:22:01.964] [main/INFO] [terrablender/]: Registered region luminous_nether:nether_region to index 1 for type NETHER
+[26Jul2026 05:22:02.172] [main/INFO] [Moonlight/]: Initialized color sets in 145ms
+[26Jul2026 05:22:02.198] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD animations...
+[26Jul2026 05:22:02.199] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raid_airship_fly
+[26Jul2026 05:22:02.216] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raid_airship_idle
+[26Jul2026 05:22:02.228] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raid_airship_illager_observe
+[26Jul2026 05:22:02.230] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raid_airship_throw_bomb
+[26Jul2026 05:22:02.238] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raid_airship_death
+[26Jul2026 05:22:02.241] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_strike_1
+[26Jul2026 05:22:02.244] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_strike_2
+[26Jul2026 05:22:02.247] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_idle
+[26Jul2026 05:22:02.251] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_heavy_strike
+[26Jul2026 05:22:02.254] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_whirlwind
+[26Jul2026 05:22:02.258] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_bombs
+[26Jul2026 05:22:02.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 20.2.13 Target: 20.2.15
+[26Jul2026 05:22:02.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[26Jul2026 05:22:02.267] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_walk
+[26Jul2026 05:22:02.270] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_walk_no_hands
+[26Jul2026 05:22:02.274] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:illager_golem_death
+[26Jul2026 05:22:02.279] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_walk_no_hands
+[26Jul2026 05:22:02.281] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_walk
+[26Jul2026 05:22:02.283] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_attack_1
+[26Jul2026 05:22:02.287] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_attack_2
+[26Jul2026 05:22:02.290] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_idle
+[26Jul2026 05:22:02.292] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_ray_charge
+[26Jul2026 05:22:02.297] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_ray_cast
+[26Jul2026 05:22:02.301] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_ray_cast_stop
+[26Jul2026 05:22:02.304] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_charge_stick
+[26Jul2026 05:22:02.308] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:electromancer_lightnings_cast
+[26Jul2026 05:22:02.311] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:player_blimp_perpeller
+[26Jul2026 05:22:02.313] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:player_blimp_turn_left
+[26Jul2026 05:22:02.314] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:player_blimp_turn_right
+[26Jul2026 05:22:02.315] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:player_blimp_dangle_lights
+[26Jul2026 05:22:02.315] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:player_blimp_air_idle
+[26Jul2026 05:22:02.316] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raider_drill_burrow
+[26Jul2026 05:22:02.316] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raider_drill_unburrow
+[26Jul2026 05:22:02.319] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: raidsenhanced:raider_drill_idle
+[26Jul2026 05:22:02.320] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdlib:testanim
+[26Jul2026 05:22:02.324] [main/INFO] [com.finderfeed.fdlib.FDLib/]: FD Animations loaded!
+[26Jul2026 05:22:02.325] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD models...
+[26Jul2026 05:22:02.325] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:raid_airship
+[26Jul2026 05:22:02.354] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:raid_blimp_cannon_projectile
+[26Jul2026 05:22:02.355] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:raid_airship_bomb
+[26Jul2026 05:22:02.355] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:raid_airship_part_1
+[26Jul2026 05:22:02.356] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:raid_airship_part_2
+[26Jul2026 05:22:02.356] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:golem_of_last_resort
+[26Jul2026 05:22:02.361] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:electromancer
+[26Jul2026 05:22:02.366] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:player_blimp
+[26Jul2026 05:22:02.370] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: raidsenhanced:raider_drill
+[26Jul2026 05:22:02.371] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[26Jul2026 05:22:02.371] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[26Jul2026 05:22:02.375] [main/INFO] [com.finderfeed.fdlib.FDLib/]: FD Models loaded!
+[26Jul2026 05:22:02.448] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[26Jul2026 05:22:02.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyshulkerboxes] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyshulkerboxes.json
+[26Jul2026 05:22:02.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyshulkerboxes] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[26Jul2026 05:22:02.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesapi.json
+[26Jul2026 05:22:02.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Found status: BETA Current: 8.1.6 Target: null
+[26Jul2026 05:22:02.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[26Jul2026 05:22:02.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.8 Target: null
+[26Jul2026 05:22:02.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[26Jul2026 05:22:02.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[26Jul2026 05:22:02.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fragmentum] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/modding/main/versions/fragmentum.json
+[26Jul2026 05:22:02.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fragmentum] Found status: OUTDATED Current: 1.0.5 Target: 1.3.0
+[26Jul2026 05:22:02.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[26Jul2026 05:22:02.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[26Jul2026 05:22:02.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Jul2026 05:22:02.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[26Jul2026 05:22:02.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
+[26Jul2026 05:22:02.703] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.16 Target: 1.20-2.16.34-forge
+[26Jul2026 05:22:02.703] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[26Jul2026 05:22:02.997] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[26Jul2026 05:22:03.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[26Jul2026 05:22:03.001] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[26Jul2026 05:22:03.001] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[26Jul2026 05:22:03.004] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
+[26Jul2026 05:22:03.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[26Jul2026 05:22:03.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettertridents.json
+[26Jul2026 05:22:03.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[26Jul2026 05:22:03.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[26Jul2026 05:22:03.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[26Jul2026 05:22:04.070] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Jul2026 05:22:04.291] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[26Jul2026 05:22:04.784] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+advancementplaques (version 1.6.9 -> MISSING)
+alltheleaks (version 1.1.1+1.20.1-forge -> MISSING)
+betteradvancements (version 0.4.2.25 -> MISSING)
+completionistsindex (version 8.0.0 -> MISSING)
+emotecraft (version 2.2.7-b.build.50 -> MISSING)
+forge (version 47.4.18 -> 47.4.10)
+jeresources (version 1.4.0.247 -> MISSING)
+ksyxis (version 1.3.4 -> MISSING)
+mixinsquared (version 0.3.6-beta.1 -> MISSING)
+smoothchunk (version 1.20.1-4.1 -> MISSING)
+starlight (version 1.1.2+forge.1cda73c -> MISSING)
+travelerstitles (version 1.20-Forge-4.0.2 -> MISSING)
+Things may not work well.
+[26Jul2026 05:22:05.101] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	advancementplaques:ui.toast.goal_complete: 2839
+	advancementplaques:ui.toast.task_complete: 2838
+	travelerstitles:biome: 2822
+	travelerstitles:dimension: 2821
+	travelerstitles:waystone: 2820
+
+[26Jul2026 05:22:05.104] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 5 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[26Jul2026 05:22:05.104] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    advancementplaques:ui.toast.goal_complete
+    advancementplaques:ui.toast.task_complete
+    travelerstitles:biome
+    travelerstitles:dimension
+    travelerstitles:waystone
+
+
+[26Jul2026 05:22:05.104] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[26Jul2026 05:22:05.650] [main/WARN] [supermartijn642corelib/]: Could not find value 'formations:template_editor' in registry 'minecraft:item' for @RegistryEntryAcceptor!
+[26Jul2026 05:22:05.837] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/enderdeath/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23289!/assets/.mcassetsroot' uses unexpected schema
+[26Jul2026 05:22:05.837] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/enderdeath/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23289!/data/.mcassetsroot' uses unexpected schema
+[26Jul2026 05:22:06.246] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:emotecraft
+[26Jul2026 05:22:06.246] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:betteradvancements
+[26Jul2026 05:22:06.246] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:jeresources
+[26Jul2026 05:22:06.247] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:advancementplaques
+[26Jul2026 05:22:06.247] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:starlight
+[26Jul2026 05:22:06.247] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:travelerstitles
+[26Jul2026 05:22:06.247] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:smoothchunk
+[26Jul2026 05:22:06.247] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:ksyxis
+[26Jul2026 05:22:06.247] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:completionistsindex
+[26Jul2026 05:22:06.248] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:mixinsquared
+[26Jul2026 05:22:06.248] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:alltheleaks
+[26Jul2026 05:22:06.330] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods []: []
+[26Jul2026 05:22:06.331] [main/INFO] [Moonlight/]: Finished runtime resources generation for 0 packs in a total of 0 ms
+[26Jul2026 05:22:08.081] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[26Jul2026 05:22:08.803] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/temp_region cold_sweat:cold_sweat/world/temp_region/compat/default_aether.json: required mods not met
+[26Jul2026 05:22:08.811] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit.json: required mods not met
+[26Jul2026 05:22:08.811] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit_boots.json: required mods not met
+[26Jul2026 05:22:08.811] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit_helmet.json: required mods not met
+[26Jul2026 05:22:08.812] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit_pants.json: required mods not met
+[26Jul2026 05:22:08.812] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_boots.json: required mods not met
+[26Jul2026 05:22:08.812] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_helmet.json: required mods not met
+[26Jul2026 05:22:08.812] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_pants.json: required mods not met
+[26Jul2026 05:22:08.812] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_suit.json: required mods not met
+[26Jul2026 05:22:08.813] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_boots.json: required mods not met
+[26Jul2026 05:22:08.813] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_helmet.json: required mods not met
+[26Jul2026 05:22:08.814] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_pants.json: required mods not met
+[26Jul2026 05:22:08.814] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_suit.json: required mods not met
+[26Jul2026 05:22:08.814] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_boots.json: required mods not met
+[26Jul2026 05:22:08.815] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_helmet.json: required mods not met
+[26Jul2026 05:22:08.815] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_leggings.json: required mods not met
+[26Jul2026 05:22:08.815] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_suit.json: required mods not met
+[26Jul2026 05:22:08.816] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/create/netherite_backtank.json: required mods not met
+[26Jul2026 05:22:08.816] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/create_sa/netherite_jetpack_chestplate.json: required mods not met
+[26Jul2026 05:22:08.817] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/irons_spells/fireward_ring.json: required mods not met
+[26Jul2026 05:22:08.818] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/irons_spells/frostward_ring.json: required mods not met
+[26Jul2026 05:22:08.819] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:entity/entity_temp cold_sweat:cold_sweat/entity/entity_temp/boatload/furnace_boat.json: required mods not met
+[26Jul2026 05:22:08.821] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:entity/entity_temp cold_sweat:cold_sweat/entity/entity_temp/soul_fire_d/on_normal_fire.json: required mods not met
+[26Jul2026 05:22:08.822] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:entity/entity_temp cold_sweat:cold_sweat/entity/entity_temp/soul_fire_d/on_soul_fire.json: required mods not met
+[26Jul2026 05:22:08.824] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/glacio.json: required mods not met
+[26Jul2026 05:22:08.826] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/mars.json: required mods not met
+[26Jul2026 05:22:08.826] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/mercury.json: required mods not met
+[26Jul2026 05:22:08.827] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/moon.json: required mods not met
+[26Jul2026 05:22:08.827] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/orbit.json: required mods not met
+[26Jul2026 05:22:08.827] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/venus.json: required mods not met
+[26Jul2026 05:22:11.882] [main/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core /easy_npc commands for Easy NPC ...
+[26Jul2026 05:22:11.978] [main/INFO] [Easy NPC: Config UI/]: 🗣 Register Easy NPC: Config UI /easy_npc_config_ui commands for Easy NPC: Config UI ...
+[26Jul2026 05:22:14.930] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/auburn_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.931] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/swamp_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.931] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.931] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/savannah_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.932] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.932] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/miner_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.932] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.932] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/dark_oak_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:14.933] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/cherry_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[26Jul2026 05:22:15.061] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe copperagebackport:pale_oak_shelf_from_palegardenbackport as it's serializer returned null
+[26Jul2026 05:22:15.066] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_ash_block: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
+[26Jul2026 05:22:15.286] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
+[26Jul2026 05:22:15.303] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe endersdelight:integration/create/milling/voidpepper: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
+[26Jul2026 05:22:15.376] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dedsafio3:llave_crafteo: com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
+[26Jul2026 05:22:15.414] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_reverse_ash: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
+[26Jul2026 05:22:15.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe copperagebackport:pale_oak_shelf_from_vanilliabackports as it's serializer returned null
+[26Jul2026 05:22:15.488] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
+[26Jul2026 05:22:16.014] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3869 advancements
+[26Jul2026 05:22:16.059] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[26Jul2026 05:22:16.062] [main/INFO] [com.iafenvoy.jupiter.Jupiter/]: Successfully reload 0 server config(s).
+[26Jul2026 05:22:16.086] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[26Jul2026 05:22:16.096] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[26Jul2026 05:22:16.218] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[26Jul2026 05:22:16.498] [main/WARN] [ModernFix/]: Initial datapack load took 10.39 s
+[26Jul2026 05:22:19.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Jul2026 05:22:19.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Jul2026 05:22:19.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Jul2026 05:22:19.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Jul2026 05:22:19.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Jul2026 05:22:20.013] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Jul2026 05:22:20.504] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Jul2026 05:22:20.505] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Jul2026 05:22:20.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Jul2026 05:22:20.507] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Jul2026 05:22:20.538] [Server thread/INFO] [Cold Sweat/]: Loading registries from configs...
+[26Jul2026 05:22:20.541] [Server thread/INFO] [Cold Sweat/]: Loading registries from data resources...
+[26Jul2026 05:22:20.563] [Server thread/INFO] [Cold Sweat/]: Handling registry modifiers...
+[26Jul2026 05:22:20.566] [Server thread/INFO] [Cold Sweat/]: Loaded 0 insulators.
+[26Jul2026 05:22:20.567] [Server thread/INFO] [Cold Sweat/]: Loaded 0 fuels.
+[26Jul2026 05:22:20.568] [Server thread/INFO] [Cold Sweat/]: Loaded 0 foods.
+[26Jul2026 05:22:20.569] [Server thread/INFO] [Cold Sweat/]: Loaded 0 item temperatures.
+[26Jul2026 05:22:20.569] [Server thread/INFO] [Cold Sweat/]: Loaded 0 drying items.
+[26Jul2026 05:22:20.571] [Server thread/INFO] [Cold Sweat/]: Loaded 0 insulation slots configs.
+[26Jul2026 05:22:20.573] [Server thread/INFO] [Cold Sweat/]: Loaded 0 block temperatures.
+[26Jul2026 05:22:20.574] [Server thread/INFO] [Cold Sweat/]: Loaded 0 biome temperatures.
+[26Jul2026 05:22:20.574] [Server thread/INFO] [Cold Sweat/]: Loaded 0 dimension temperatures.
+[26Jul2026 05:22:20.576] [Server thread/INFO] [Cold Sweat/]: Loaded 0 structure temperatures.
+[26Jul2026 05:22:20.589] [Server thread/INFO] [Cold Sweat/]: Loaded 1 depth temperatures: [cold_sweat:default]
+[26Jul2026 05:22:20.591] [Server thread/INFO] [Cold Sweat/]: Loaded 1 insulated mounts: [cold_sweat:strider]
+[26Jul2026 05:22:20.592] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity spawn biomes.
+[26Jul2026 05:22:20.594] [Server thread/INFO] [Cold Sweat/]: Loaded 2 entity temperatures: [cold_sweat:furnace_minecart, cold_sweat:on_fire]
+[26Jul2026 05:22:20.595] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity climates.
+[26Jul2026 05:22:20.597] [Server thread/INFO] [Cold Sweat/]: Loaded 2 temp effects: [cold_sweat:default_entity, cold_sweat:default_player]
+[26Jul2026 05:22:20.598] [Server thread/INFO] [Cold Sweat/]: Loading TOML configs...
+[26Jul2026 05:22:20.633] [Server thread/ERROR] [Cold Sweat/]: Error parsing config: block "deeperdarker:echo_leaves" does not exist
+[26Jul2026 05:22:20.638] [Server thread/ERROR] [Cold Sweat/]: Error parsing config: block "create:blaze_burner" does not exist
+[26Jul2026 05:22:20.641] [Server thread/INFO] [Cold Sweat/]: Loading BlockTemps...
+[26Jul2026 05:22:20.653] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[26Jul2026 05:22:20.764] [Server thread/INFO] [Puzzles Lib/]: Loading server config for puzzlesapi
+[26Jul2026 05:22:20.803] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[26Jul2026 05:22:20.818] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[26Jul2026 05:22:20.863] [Server thread/INFO] [Puzzles Lib/]: Loading server config for bettertridents
+[26Jul2026 05:22:21.023] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[26Jul2026 05:22:21.126] [Server thread/INFO] [FTB Teams/]: loaded team data: 9 known players, 9 teams total
+[26Jul2026 05:22:21.148] [Server thread/INFO] [Framework/]: Loading server configs...
+[26Jul2026 05:22:21.828] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[26Jul2026 05:22:21.832] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[26Jul2026 05:22:21.900] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[26Jul2026 05:22:22.273] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[26Jul2026 05:22:22.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Jul2026 05:22:23.448] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[26Jul2026 05:22:23.461] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[26Jul2026 05:22:23.488] [Server thread/ERROR] [incontrol/]: JSON error in 'spawn.json': check log for details (Not a JSON Object: [{"mob":"minecraft:blaze","result":"allow","dimension":"minecraft:overworld"}])
+[26Jul2026 05:22:23.489] [Server thread/ERROR] [incontrol/]: Error parsing 'spawn.json'
+java.lang.IllegalStateException: Not a JSON Object: [{"mob":"minecraft:blaze","result":"allow","dimension":"minecraft:overworld"}]
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:101) ~[gson-2.10.jar%2372!/:?]
+	at mcjty.incontrol.tools.typed.GenericAttributeMapFactory.parse(GenericAttributeMapFactory.java:52) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.rules.SpawnRule.parse(SpawnRule.java:400) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.rules.RulesManager.readRules(RulesManager.java:221) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.rules.RulesManager.lambda$readAllRules$9(RulesManager.java:193) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.rules.RulesManager.safeCall(RulesManager.java:207) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.rules.RulesManager.readAllRules(RulesManager.java:193) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.rules.RulesManager.reloadRules(RulesManager.java:64) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.ForgeEventHandlers.tryLoadRules(ForgeEventHandlers.java:63) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.ForgeEventHandlers.onLevelLoad(ForgeEventHandlers.java:56) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.__ForgeEventHandlers_onLevelLoad_Load.invoke(.dynamic) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Jul2026 05:22:23.494] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[26Jul2026 05:22:23.505] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[26Jul2026 05:22:23.512] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[26Jul2026 05:22:23.518] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[26Jul2026 05:22:23.522] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[26Jul2026 05:22:23.525] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[26Jul2026 05:22:23.529] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[26Jul2026 05:22:23.532] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[26Jul2026 05:22:23.535] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[26Jul2026 05:22:23.543] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[26Jul2026 05:22:23.563] [Server thread/ERROR] [incontrol/]: JSON error in 'spawner.json': check log for details (Not a JSON Object: [{"mob":"minecraft:zombie","persecond":1.0,"attempts":100,"amount":{"minimum":10,"maximum":10},"conditions":{"dimension":"minecraft:overworld"}}])
+[26Jul2026 05:22:23.564] [Server thread/ERROR] [incontrol/]: Error parsing 'spawner.json'
+java.lang.IllegalStateException: Not a JSON Object: [{"mob":"minecraft:zombie","persecond":1.0,"attempts":100,"amount":{"minimum":10,"maximum":10},"conditions":{"dimension":"minecraft:overworld"}}]
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:101) ~[gson-2.10.jar%2372!/:?]
+	at mcjty.incontrol.spawner.SpawnerParser.readRules(SpawnerParser.java:23) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.spawner.SpawnerSystem.reloadRules(SpawnerSystem.java:52) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.ForgeEventHandlers.tryLoadRules(ForgeEventHandlers.java:64) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.ForgeEventHandlers.onLevelLoad(ForgeEventHandlers.java:56) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at mcjty.incontrol.__ForgeEventHandlers_onLevelLoad_Load.invoke(.dynamic) ~[incontrol-1.20-9.4.6.jar%23246!/:1.20-9.4.6]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Jul2026 05:22:23.576] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[26Jul2026 05:22:23.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Jul2026 05:22:26.071] [Server thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[26Jul2026 05:22:30.546] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.547] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.548] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.550] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.551] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.552] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.553] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.554] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.554] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.554] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.556] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.556] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.558] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.561] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:30.788] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:31.248] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:31.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:33.019] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:33.023] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:33.324] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:33.757] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:34.514] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:34.749] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:35.309] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jul2026 05:22:35.986] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[26Jul2026 05:22:36.260] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:38.667] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:39.501] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:39.570] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:39.598] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:39.600] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:39.602] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:39.764] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:40.641] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:40.836] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:41.882] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:41.883] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:42.261] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:44.490] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:44.492] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:44.508] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:44.508] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:45.761] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:46.628] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:46.633] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:46.647] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:47.588] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:47.901] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:47.904] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:49.251] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:49.825] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:49.826] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:49.829] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[26Jul2026 05:22:50.753] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:51.237] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:51.376] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:52.563] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:53.272] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:54.849] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:54.943] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:54.944] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:55.057] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:55.058] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:55.258] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:57.179] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:58.171] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:58.172] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:58.213] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:58.217] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:59.618] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:22:59.628] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:00.103] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:00.107] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:01.226] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:01.227] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:01.259] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:02.423] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:02.424] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:02.938] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:03.539] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:05.758] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:05.758] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:05.784] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:05.786] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:06.088] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:06.577] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:06.878] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:07.565] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:07.917] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[26Jul2026 05:23:08.248] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[26Jul2026 05:23:08.865] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 45118 ms
+[26Jul2026 05:23:08.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (48.335s)! For help, type "help"
+[26Jul2026 05:23:09.152] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Jul2026 05:23:09.155] [Server thread/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Server is starting Events ...
+[26Jul2026 05:23:09.156] [Server thread/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Server data folders ...
+[26Jul2026 05:23:09.164] [Server thread/INFO] [Easy NPC: Core/]: [Pose Manager] Cleared all pose data.
+[26Jul2026 05:23:09.200] [Server thread/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Registered 76 pose data entries.
+[26Jul2026 05:23:09.230] [Server thread/INFO] [FTB Quests/]: Loading quests from /workspaces/enderdeath/servidor_minecraft/config/ftbquests/quests
+[26Jul2026 05:23:09.325] [Server thread/INFO] [FTB Quests/]: Loaded 3 chapter groups, 12 chapters, 315 quests, 0 reward tables
+[26Jul2026 05:23:09.360] [Server thread/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Server started Events ...
+[26Jul2026 05:23:09.372] [Server thread/INFO] [Easy NPC: Core/]: Loaded metadata for 92 NPC entities from index
+[26Jul2026 05:23:09.374] [Server thread/INFO] [Easy NPC: Core/]: [NPC Entity Manager] Initialized with 92 tracked NPC entities
+[26Jul2026 05:23:09.377] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD configs...
+[26Jul2026 05:23:09.377] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config raidsenhanced:raidsenhanced
+[26Jul2026 05:23:09.380] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:test
+[26Jul2026 05:23:09.381] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:fdlib_client
+[26Jul2026 05:23:09.383] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loaded FD configs.
+[26Jul2026 05:23:09.386] [Server thread/WARN] [ModernFix/]: Dedicated server took 136.67 seconds to load
+[26Jul2026 05:23:11.495] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
+[26Jul2026 05:34:06.541] [Server thread/INFO] [Easy NPC: Core/]: 🗣 Register Easy NPC: Core Server is stopping, saving all dirty NPCs...
+[26Jul2026 05:34:06.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Jul2026 05:34:06.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Jul2026 05:34:06.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Jul2026 05:34:09.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Ender muerto]'/minecraft:overworld
+[26Jul2026 05:34:12.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Ender muerto]'/minecraft:the_nether
+[26Jul2026 05:34:12.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Ender muerto]'/minecraft:the_end
+[26Jul2026 05:34:12.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Ender muerto]'/mofus_better_end_:broken_constellation
+[26Jul2026 05:34:15.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Jul2026 05:34:15.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jul2026 05:34:15.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jul2026 05:34:15.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
+[26Jul2026 05:34:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Jul2026 05:34:15.923] [Server thread/INFO] [Framework/]: Unloading server configs...
+[26Jul2026 05:34:15.943] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[26Jul2026 05:34:15.957] [Server thread/INFO] [Framework/]: Finished unloading server configs
